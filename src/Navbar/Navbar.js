@@ -48,7 +48,9 @@ const[open,setopen]=useState(false);
   const handleEvent = () =>{
     navigate('/Events');
   }
-  
+  const handleOnHome = () =>{
+    navigate('/');
+  }
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
@@ -90,7 +92,7 @@ const[open,setopen]=useState(false);
              
                 <Link to="/Home" ><img  alt="logo" style={{width:"100px",height:"62px"}} />
                 </Link>
-                <p style={{fontWeight:600}}> Gardening Vlog</p>
+                <p style={{fontWeight:600}}> </p>
             </Toolbar>
             <Typography
                
@@ -105,8 +107,8 @@ const[open,setopen]=useState(false);
 
                 
             <Button key="Home" className='hover' sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
-                //  onClick={handleOnHome}
-                        to="/Home"
+                  onClick={handleOnHome}
+                        
                         
                         
                       >
@@ -120,7 +122,7 @@ const[open,setopen]=useState(false);
                         onMouseEnter={()=> setDropdowns(true)}
                         onMouseLeave={()=> setDropdowns(false)}
                 >
-                    <strong style={{padding:"10px"}}>Solutions </strong>
+                    <strong style={{padding:"26px"}}>Solutions </strong>
                     {Dropdowns &&<Dropdown/>}
                 </Button>
                 <Button key="about" sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
@@ -128,7 +130,7 @@ const[open,setopen]=useState(false);
                             onMouseLeave={()=> setopen(false)}
                           
                         >
-                    <strong style={{padding:"10px"}}>Resources
+                    <strong style={{padding:"26px"}}>Resources
                     {open &&<DropDown/>}
 </strong>
                 </Button>

@@ -7,6 +7,7 @@
     width: 300px;
     font-size: 18px;
     margin-top: -11px;
+    
 }
 
 .hetext1{
@@ -15,9 +16,10 @@
     font-weight: bolder;
 }
 .heetext{
-    padding: 0px 100px 0px 180px;
+    /* padding: 0px 100px 0px 180px; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* column-gap: 141px; */
 }
 .heimg{
@@ -70,22 +72,52 @@
     border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
-    .hetext1{
+     .hetext1{
         font-size: 51px;
-    width: 486px;
-    text-align: center;
+        width: 486px;
+        text-align: center;
+    
+    
+    } 
+     .heetext{
+        padding: 0px 168px 0px 242px;
     }
-    .hetext{
+     .hetext{
         width: 490px;
     text-align: center;
-    /* font-size: 36px; */
+    
     font-size: 35px;
     }
     .heimg{
         height: 150px;
+        margin-left: 60px;
 
+    } 
+    .heetext{
+        padding: 0px 168px 0px 500px;
+    } 
+    .fche{
+        padding: 0px 10px 0px 456px;
     }
-    .hetext{
-        padding: 0px 168px 0px 242px;
+    .fimg{
+        height: 76px;
+        margin-top: 17px;
+        margin-left: 150px;
+    }
+ .fcolor{
+    width: 550px;
+    padding: 0px 83px 0px 83px;
+ }
+ .fcolor2{
+    width: 550px;
+    padding: 0px 83px 0px 83px;
+ }
+.fcolor1 {
+    width: 550px;
+    padding: 0px 83px 0px 83px;
+    }
+    .ftext{
+        font-size: 3rem;
+        width: 500px;
     }
 }

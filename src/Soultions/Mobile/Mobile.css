@@ -14,7 +14,8 @@
     font-weight: bolder;
 }
 .ourr{
-    padding: 0px 168px 0px 168px;
+    /* padding: 0px 168px 0px 168px; */
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     column-gap: 141px;
@@ -34,14 +35,15 @@
     .otext{
         width: 490px;
     text-align: center;
-    /* font-size: 36px; */
+    font-size: 36px;
     font-size: 35px;
     }
     .oimg{
         height: 150px;
+        margin-left: 60px;
 
     }
     .ourr{
-        padding: 0px 168px 0px 242px;
+        padding: 0px 168px 0px 500px;
     }
 }

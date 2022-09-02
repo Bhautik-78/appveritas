@@ -148,7 +148,7 @@ WhatsApp Support
         
       </div>
      </div>
-     <Slide/>
+     {/* <Slide/> */}
      <div className='dimo'>
       <div>
         <p className='gtext'>Frequently Ask Questions</p>
@@ -209,6 +209,7 @@ Still not sure?</p>
      <div className='talkbtn'>
       <button className='talkbtn1'>TALK TO OUR EXPERTS</button>
      </div>
+     
     </>
   )
 }

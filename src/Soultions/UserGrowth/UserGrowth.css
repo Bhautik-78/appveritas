@@ -116,5 +116,8 @@
        
         padding: 0px 83px 0px 83px;
     }
-    
+    .img-box img{
+        height: 400px;
+        width: 797px;
+    }
 }

@@ -60,10 +60,10 @@ export default function Form() {
           <br></br>
           <br></br>
           <div className="input">
-            <label for="fname">State (Country)</label>
+            <label for="fname">State(Country):</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
-          </div>{" "}
+          </div>
           <br></br>
           <br></br>
           <div className="input">

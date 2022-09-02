@@ -7,7 +7,8 @@
 .dche{
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 50px 0px 102px;
+    /* padding: 0px 50px 0px 102px; */
+    justify-content: center;
     /* column-gap: 100px; */
     column-gap: 52px;
     row-gap: 15px;
@@ -33,7 +34,8 @@
 .dimo{
     display: flex;
     flex-wrap: wrap;
-    padding: 78px 118px 0px 118px;
+    /* padding: 78px 118px 0px 118px; */
+    justify-content: center;
     column-gap: 24px;
 }
 .yche{
@@ -173,7 +175,20 @@
 
 
 @media only screen and (max-width: 600px) {
-    .demoimg{
+   
+   .dimo{
+    width: 791px;
+   } 
+   
+   .dche{
+    padding: 0px 140px 0px 400px;
+   }
+   .sign{
+    /* display: flex;
+    justify-content: center; */
+    padding: 0px 140px 0px 200px;
+   }
+   .demoimg{
         padding: 0px 13px;
     }
     .yche{
@@ -181,6 +196,9 @@
         /* width: 853px; */
         text-align: center;
         font-size: 3rem;
+    }
+    .signn{
+        padding: 0px 113px 0px 600px; 
     }
     .start{
         /* padding:  0px 15px 0px 15px; */
@@ -191,10 +209,10 @@
     .yche1{
        font-size: 30px;
     }
-    .sign3{
+     .sign3{
         font-size: 3rem;
     width: 688px;
-    margin-left: 29px;
+    /* margin-left: 29px; */
     }
     
     .sign2{
@@ -207,9 +225,7 @@
         font-size: 2rem;
     width: 688px
     }
-    .signn{
-        margin-left: 582px;
-    }
+   
     .stg{
         margin-left: 473px;
     }
@@ -234,80 +250,13 @@
     font-size: 25px;
 
     }
-    /* .hide{
-        font-size: 31px;
-    } */
+   .talkbtn{
+   
+        font-size: 38px;
+        width: 186px;
+        padding: 0px 5px 0px 337px;
+        margin-top: 20px;
+    
+   }
 }
 
-@media only screen and (max-width: 768px) {
-
-    .demoimg{
-        height: 500px;
-        width: 501px;
-    }
-    /* .demo{
-        padding:  0px 15px 0px 15px;
-        width: 853px;
-        text-align: center;
-    }
-    .demo1{
-        padding: 1px 118px 0px 6px;
-        width: 853px;
-        text-align: center;
-    }
-    .yche{
-        padding:  0px 15px 0px 15px;
-        width: 853px;
-        text-align: center;
-        font-size: 3rem;
-    }
-    .start{
-        padding:  0px 15px 0px 15px;
-        width: 983px;
-        text-align: center;
-        font-size: 3rem;
-    }
-    
-    .yche1{
-        font-size: 34px;
-        padding: 0px 20px 0px 20px;
-        font-weight: 600;
-        width: 667px;
-     }
-     .color{
-        background-color: #1846b22b;
-        padding: 0px 10px 0px 10px;
-     } */
-     
-    .signn{
-        /* margin-left: 522px; */
-    }
-    /* .sign3{
-        font-size: 2rem;
-    width: 688px;
-    margin-left: 29px;
-    }
-    
-    .sign2{
-       
-
-    font-size: 2rem;
-    width: 688px
-    }
-    .sign1{
-        font-size: 3rem;
-    width: 680px
-    }
-    .stg{
-        margin-left: 690px;
-    }
-    .stg1{
-        margin-left: 690px;
-    }
-    .stg2{
-        margin-left: 690px;
-    }
-    .sign{
-        row-gap: 33px;
-    } */
-}

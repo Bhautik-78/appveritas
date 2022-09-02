@@ -22,9 +22,10 @@ function App() {
   return (
     <div>
        <Router>
+<Navbar/>
         <Routes>
-                  <Route exact path='/' element={< Navbar />}></Route>
-                  <Route exact path='/home' element={< Home />}></Route>
+                  {/* <Route exact path='/' element={< Navbar />}></Route> */}
+                  <Route exact path='/' element={< Home />}></Route>
                   <Route exact path='/solutions' element={< Soultions />}></Route>
                   <Route exact path='/Mobile' element={< Mobile />}></Route>
                   <Route exact path='/User' element={< UserGrowth />}></Route>

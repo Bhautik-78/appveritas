@@ -128,7 +128,7 @@ export default function Mobile() {
         
       </div>
      </div>
-     <Slide/>
+     {/* <Slide/> */}
      <div className='start'>
       <p>
 Still not sure?</p>

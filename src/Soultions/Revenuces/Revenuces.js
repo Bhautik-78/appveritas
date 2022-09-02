@@ -139,7 +139,7 @@ WhatsApp Support</p>
       </div>
       
      </div>
-     <Slide/>
+     {/* <Slide/> */}
      <div className='start'>
       <p>What are you waiting for? Start optimizing your revenue TODAY!</p>
      </div>

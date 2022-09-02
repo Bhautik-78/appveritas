@@ -106,6 +106,7 @@
 
 .uback{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     row-gap: 0px;
     column-gap: 0px;
@@ -139,6 +140,16 @@ height: 400px;
         padding: 0px 83px 0px 83px;
        
     }
+    .uback{
+        padding: 0px 100px 0px 500px; 
+        row-gap: 58px;
+    }
+    .utext{
+        font-size: 40px;
+    }
+    .uimg{
+        margin-left: 70px;
+    }
     .tcolor1{
         width: 550px;
        
@@ -155,9 +166,11 @@ height: 400px;
     .tche{
         padding: 0px 10px 0px 456px;
     }
+  
 }
 @media only screen and (max-width: 802px) {
     .ssimg{
-width: 659px;
+  width: 935px;
+  height: 500px;
     }
 }

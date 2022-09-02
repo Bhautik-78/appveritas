@@ -1,37 +1,4 @@
-/* .img-slider{
-    position: relative;
-    width: 800px;
-    height: 500px;
-    margin: 10px;
-    background-color: rgb(146, 199, 199);
-}
 
-.img-slider .slide{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-  
-
-}
-
-
-.img-slider .navigation .btn{
-    background: rgba(255,255,255,0.5);
-    width: 12px;
-    height: 12px;
-    margin:10px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.img-slider .navigation{
-    z-index: 2;
-    position: absolute;
-    display: flex;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
 
 .img-box{
     background-color: aliceblue;

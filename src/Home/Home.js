@@ -16,7 +16,7 @@ import Slide from './Slide';
 export default function Home() {
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/> */}
      <div className='header'>
      <div className='text3' >
         <p className='text'>Get down to making great Apps because we take care of the rest!​</p >
@@ -45,7 +45,7 @@ export default function Home() {
         <img className='logo' src={Image4} alt='images'></img>
      </div>
      </div>
-     <Slide/>
+     {/* <Slide/> */}
     <Slider/>
     <Form/>
 

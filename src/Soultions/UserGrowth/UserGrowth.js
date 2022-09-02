@@ -189,12 +189,12 @@ Our optimization specialists track and monitor keywords, traffic, rankings, etc.
 
 </div>
    </div>
-   <div className="wrapper">
+   {/* <div className="wrapper">
         <div className="content">
           <div className="img-box">
             {step === 1 && (
               <img
-                // style={{ width: "504px", margin: " 0px 37px 0px 519px" }}
+                
                 className="simg"
                 src={plants6}
                 alt="logo"
@@ -220,8 +220,8 @@ Our optimization specialists track and monitor keywords, traffic, rankings, etc.
           <div className="indicator" onClick={gotoslide2}></div>
           <div className="indicator" onClick={gotoslide3}></div>
         </div>
-      </div>
-      <Slide/>
+      </div> */}
+      {/* <Slide/> */}
       <div className="form">
         <div>
           <p className="formtext">Get Started With AppBroda Today</p>

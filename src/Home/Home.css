@@ -18,7 +18,8 @@
 .header{
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 205px 0px 155px;
+
+    justify-content: center;
 }
 .button{
     width: 180px;
@@ -60,14 +61,19 @@
 
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 316px 0px 316px;
+    /* padding: 0px 316px 0px 316px; */
+    justify-content: center;
     column-gap: 80px;
 }
 .bg{
     background-color: #17304C;
-    padding: 0px 100px 0px 100px;
+    /* padding: 0px 100px 0px 100px; */
+    display: flex;
+    justify-content: center;
     height: 500px;
-    width:auto;
+    width:100%;
+    row-gap: 20px;
+    column-gap: 50px;
 }
 .test{
     color: white;
@@ -75,11 +81,11 @@ font-weight: 700;
 }
 .top{
     margin-top: 71px;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     row-gap: 19px;
     justify-content: space-between;
-    column-gap: 70px;
+    column-gap: 174px;
 }
 .test1{
     color: white;
@@ -92,7 +98,8 @@ font-weight: 700;
         
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 150px 0px 150px;
+    /* padding: 0px 150px 0px 150px; */
+    justify-content: center;
     column-gap: 153px;
 }
 .atext{
@@ -100,7 +107,7 @@ font-weight: 700;
     color: #17304C;
 }
 .textt{
-    font-size: 2.5rem;
+    font-size: 35px;
     font-weight: bold;
     color: #17304C;
 }
@@ -129,7 +136,8 @@ font-weight: 700;
 .pic{
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 0px 0px 137px;
+    /* padding: 0px 0px 0px 137px; */
+    justify-content: center;
     row-gap: 10px;
     column-gap: 30px;
    
@@ -163,7 +171,8 @@ font-weight: 700;
 .form{
     display: flex;
     flex-wrap: wrap;
-    padding:77px 100px 0px 100px;
+    /* padding:77px 100px 0px 100px; */
+    justify-content: center;
     column-gap: 153px;
 }
 .form1{
@@ -196,57 +205,76 @@ font-weight: 700;
     padding: 0px 20px 0px 20px;
 }
 .img-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 15px;
+     background-color: #17304C;
+    color: black;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
 }
 
 .img-box img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 
 .indicators-box{
-    width: 100%;
-    /* padding: 0px 10px 0px 175px; */
+     width: 100%;
+
     display: flex;
     justify-content: center;
     
-    position: absolute;
-    /* margin-top: -71px; */
+    
+  
     
 }
 
-.indicators-box .indicator{
+.indicators-box .indicato{
     width: 15px;
     height: 15px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin-right: 25px;
     border-radius: 50%;
    cursor: pointer;
 
 
 }
-.indicators-box .indicator.active{
-    background-color: black;
+
+.bun{
+    font-size: 38px;
+    /* width: 714px; */
+    /* padding: 0px 186px 0px 129px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 @media only screen and (max-width: 600px) {
     .header{
-       padding: 0px 26px 0px 26px;
+       /* padding : 0px 104px 0px 355px; */
+       width: 791px;
+    }
+    .apps{
+        padding: 0px 140px 0px 400px;
+    }
+    .top{
+        padding: 0px 0px 0px 200px;
+        
     }
     .text{
         font-size: 57px;
         width: 556px;
         text-align: center;
     }
+    .atext{
+        font-size: 25px;
+        width: 500px;
+    }
     .text1{
-        font-size: 32px;
+        font-size: 25px;    
         text-align: center;
     }
     .text3 .button{
         text-align: center;
-        margin-left: 250px;
+        margin-left: 207px;
     } 
     .apps .button1{
         margin-left: 150px;
@@ -254,19 +282,28 @@ font-weight: 700;
     img{
         padding: 0px 79px 0px 79px;
     }
+    .stext{
+        width: 218px;
+        font-size: 13px;
+        font-weight: bolder;
+        color: #224C72;
+    }
+    
+    
     .midel{
-        font-size: 38px;
-        width: 714px;
+        font-size: 40px;
+        width: 791px;
         text-align: center; 
-        padding: 0px 26px 0px 26px;
+        /* padding: 0px 26px 0px 26px; */
     }
     .img4{
-        padding: 0px 120px 0px 120px;
+        padding: 0px 140px 0px 400px;
         row-gap: 15px;
     }
     .logo{
-        height: 120px;
-        padding: 0px 120px 0px 120px;
+        height: 180px;
+        /* padding: 0px 120px 0px 120px; */
+        /* margin-left: 350px; */
     }
     .slice{
         height: 100px;
@@ -274,24 +311,25 @@ font-weight: 700;
     }
     .bg
     {
-        width: 671px
+        /* width: 800px; */
+        /* padding: 0px 140px 0px 400px; */
     }
     .pics{
         width: 630px;
     }
     .pic{
-        padding: 0px 20px 0px 20px;
+        padding: 0px 140px 0px 400px;
         row-gap: 10px;
     }
     .ptext{
-        /* text-align: center; */
+      
     width: 650px;
     padding: 0px 10px 0px 110px;
     font-size: 1.5rem;
     font-size: 2rem;
     }
     .ptext1{
-        /* text-align: center; */
+        
     width: 650px;
     padding: 0px 10px 0px 110px;
     }
@@ -306,19 +344,62 @@ font-weight: 700;
         font-size: 2rem;
         margin-top: 15px;
         
-        /* margin-left: 150px; */
+        
         width: 704px;
     }
     .blog2{
-        margin-left: 412px;
+        font-size: 30px;
+        width: 714px;
+        text-align: center; 
     }
     .btn{
-        margin-left: 328px;
+        font-size: 38px;
+        /* width: 714px; */
+        padding: 0px 186px 0px 129px;
+        margin-top: 20px;
+    }
+    .button1{
+        width: 300px;
+    }
+    .bun{
+        font-size: 38px;
+        width: 186px;
+        padding: 0px 5px 0px 289px;
+        margin-top: 20px;
     }
    
+    .form{
+        padding: 0px 140px 0px 400px;
+    }
+    .form1{
+        width: 433px;
+    }
+    .formtext{
+        font-size: 38px;
+        width: 714px;
+        text-align: center; 
+    }
+    .formtext1{
+        font-size: 25px;
+        width: 714px;
+        text-align: center; 
+    }
+    .img-box{
+        margin-left: -60px;
+        margin-top: 90px;
+    }
+    .scolor{
+        margin-top: -57px;
+    }
   }
 
-  @media only screen and (max-width: 768px) {
+  
+@media only screen and (max-width: 857px) {
+    
+    
+}
+
+  /* @media only screen and (max-width: 768px) {
     .header{
         padding: 0px 26px 0px 26px;
      }
@@ -368,14 +449,14 @@ font-weight: 700;
         row-gap: 10px;
     }
     .ptext{
-        /* text-align: center; */
+       
     width: 650px;
     padding: 0px 10px 0px 110px;
     font-size: 1.5rem;
     font-size: 2rem;
     }
     .ptext1{
-        /* text-align: center; */
+       
     width: 650px;
     padding: 0px 10px 0px 110px;
     }
@@ -397,4 +478,4 @@ font-weight: 700;
     .btn{
         margin-left: 219px;
     }
-  }
+  } */

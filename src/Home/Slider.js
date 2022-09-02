@@ -21,20 +21,19 @@ export default function Slider() {
     </div>
     <div>
         <div className='divider'>
-            <p className='textt'>1,500+</p>
+            <p className='textt' style={{fontSize:"36px"}}>1,500+      </p>
             {/* <p>APPS</p> */}
             <Divider sx={{borderLeft: "1px solid black", height: "77px",marginTop: "32px", }}/>
             <p className='dtext'>Across different Categories, both on Google Playstore and App Store</p>
         </div>
         <div className='divider'>
-            <p className='textt'>5 
-Billion </p>
+            <p className='textt' style={{fontSize:"25px"}} >5 Billion +  </p>
             {/* <p>APPS</p> */}
             <Divider sx={{borderLeft: "1px solid black", height: "77px",marginTop: "32px", }}/>
             <p className='dtext'>Across different Categories, both on Google Playstore and App Store</p>
         </div>
         <div className='divider'>
-            <p className='textt'>250
+            <p className='textt' style={{fontSize:"45px"}}>250
 +</p>
             {/* <p>APPS</p> */}
             <Divider sx={{borderLeft: "1px solid black", height: "77px",marginTop: "32px", }}/>
@@ -67,7 +66,7 @@ Billion </p>
         
         
     </div>
-    <div className='btn'> <button className='button1'>Chek all Articles</button></div>
+    <div className='bun'> <button className='button1'>Chek all Articles</button></div>
     
     </>
   )
