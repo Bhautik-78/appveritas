@@ -1,0 +1,120 @@
+.aatext{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 263px;
+    text-align: center;
+}
+.aatext1{
+    font-size: 20px;
+    width: 251px;
+    text-align: center;
+}
+.aimg{
+    
+        height:76px;
+        margin-top: 17px;
+        margin-left: 98px;
+    
+}
+.acolor{
+    width: 273px;
+    background-color: #f9f8ff;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+.acolor1{
+    width: 273px;
+    background-color: #FFFCF6;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}.acolor2{
+    width: 273px;
+    background-color: #f0fffc;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}.acolor3{
+    width: 273px;
+    background-color: #f0fffc;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+
+.img-box{
+    /* background-color: aliceblue; */
+    color: black;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.indicators-box{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.indicators-box .indicator{
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    margin-right: 25px;
+    border-radius: 50%;
+   cursor: pointer;
+
+
+}
+.indicators-box .indicator.active{
+    background-color: black;
+}
+.simg{
+    width: 100%;
+    height: auto;
+    padding: 0px 15px 0px 15px;
+}
+@media only screen and (max-width: 600px) {
+    .aatext{
+        font-size: 3rem;
+        
+        width: 500px;
+        
+    }
+    .aatext1{
+        font-size: 30px;
+        width: 500px;
+        text-align: center;
+    }
+    .aimg{
+        
+            height:76px;
+            margin-top: 17px;
+            margin-left: 98px;
+        
+    }
+    .acolor{
+        width: 550px;
+       
+        padding: 0px 83px 0px 83px;
+       
+    }
+    .acolor1{
+        width: 550px;
+       
+        padding: 0px 83px 0px 83px;
+    }.acolor2{
+        width: 550px;
+       
+        padding: 0px 83px 0px 83px;
+    }.acolor3{
+        width: 550px;
+       
+        padding: 0px 83px 0px 83px;
+    }
+    
+}

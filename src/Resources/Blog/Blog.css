@@ -1,0 +1,44 @@
+.admob{
+    display: flex;
+    justify-content: center;
+ column-gap: 50px;
+    row-gap: 50px;
+}
+.abtn{
+    height: 30px;
+    border-color: #0D76FF;
+    color: #0D76FF;
+    border-radius: 3px;
+}
+.abtn:hover{
+    background-color: #0D76FF;
+    color: white;
+}
+.himges{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+row-gap: 20px;
+column-gap: 20px;
+margin-top: 20px;
+}
+.htext{
+font-weight: bolder;
+width: 308px;
+font-size: 20px;
+}
+.htext1{
+    width: 308px;
+}
+.himg{
+    width: 380px;
+}
+
+.hhover{
+    box-shadow: rgb(225 225 225) 0px 0px 19px 6px;
+    width: 380px;
+   
+}
+.hpadding{
+    padding: 5px 40px 2px 40px;
+}

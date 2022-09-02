@@ -1,0 +1,313 @@
+.demo{
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 550px;
+    color: #17304C;
+}
+.dche{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px 0px 102px;
+    /* column-gap: 100px; */
+    column-gap: 52px;
+    row-gap: 15px;
+}
+.demo1{
+    color: #17304C;
+    width: 550px;
+    font-size: 18px;
+}
+.demoimg{
+    height: 500px;
+    width: 701px;
+}
+.demobtn{
+    background-color: #0D76FF;
+    color: #fff;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    border-color: #0D76FF;
+    border-radius: 5px; 
+}
+.dimo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 78px 118px 0px 118px;
+    column-gap: 24px;
+}
+.yche{
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 550px;  
+}
+.color{
+    background-color: #1846b22b;
+    padding: 0px 15px 0px 40px;
+}
+.yche1{
+    font-size: 20px;
+    width: 500px;
+ }
+ .start{
+    text-align: center;
+    margin-top: 47px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #17304C;
+ }
+ .sign1{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #17304C;
+    text-align: center;
+ }
+ .sign2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 10px;
+    /* margin-top: -22px; */
+    color: #17304C;
+    text-align: center;
+    width: 397px;
+    
+ }
+ .sign3{
+    text-align: center;
+    font-size: 22px;
+    color: #17304C;
+    width: 420px;
+}
+ .sign{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 13px;
+ }
+ .signn{
+    /* display: flex; */
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    margin-top: 15px;
+ }
+.lock{
+    display: flex;
+    justify-content: center;
+}
+.immg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stg{
+    background-color: #e9edffa8;
+    padding: 77px 0px 0px 0px;
+    border-radius: 10px;
+}
+.stg1{
+    background-color:#fbffe9a8;
+    padding: 77px 0px 0px 0px;
+    border-radius: 10px;
+}
+.stg2{
+    background-color: #ceffe1a8;
+    padding: 77px 0px 0px 0px;
+    border-radius: 10px;
+}
+.bimg{
+    height: 498px;
+    padding: 51px;
+    width: 550px;
+}
+.gtext{
+    font-weight: bolder;
+    font-size: 1.6rem;
+    width: 500px;
+    
+}
+.gtext1{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 500px;
+    
+}
+.hide{
+    font-weight: 700;
+    font-size: 18px;
+    /* border-bottom: 1px solid; */
+
+}
+.show{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hide1{
+    width: 500px;
+    border-bottom: 1px solid;
+}
+.faq{
+    height: 800px;
+    width: 581px;
+}
+.talkbtn1{
+    background-color: #0D76FF;
+    color: #fff;
+    height: 60px;
+    width: 250px;
+    font-size: 19px;
+    border-color: #0D76FF;
+    border-radius: 5px;
+
+}
+.talkbtn{
+    text-align: center;
+    margin-top: 20px;
+        
+}
+
+
+@media only screen and (max-width: 600px) {
+    .demoimg{
+        padding: 0px 13px;
+    }
+    .yche{
+        padding:  0px 15px 0px 15px;
+        /* width: 853px; */
+        text-align: center;
+        font-size: 3rem;
+    }
+    .start{
+        /* padding:  0px 15px 0px 15px; */
+        width: 947px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .yche1{
+       font-size: 30px;
+    }
+    .sign3{
+        font-size: 3rem;
+    width: 688px;
+    margin-left: 29px;
+    }
+    
+    .sign2{
+       
+
+    font-size: 2rem;
+    width: 688px
+    }
+    .sign1{
+        font-size: 2rem;
+    width: 688px
+    }
+    .signn{
+        margin-left: 582px;
+    }
+    .stg{
+        margin-left: 473px;
+    }
+    .stg1{
+        margin-left: 473px;
+    }
+    .stg2{
+        margin-left: 473px;
+    }
+    .sign{
+        row-gap: 33px;
+    }
+    .gtext{
+        font-size: 2.6rem;
+    width: 581px;
+    }
+    .gtext1{
+        font-size: 2.2rem;
+    }
+    .demo1{
+        width: 592px;
+    font-size: 25px;
+
+    }
+    /* .hide{
+        font-size: 31px;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+
+    .demoimg{
+        height: 500px;
+        width: 501px;
+    }
+    /* .demo{
+        padding:  0px 15px 0px 15px;
+        width: 853px;
+        text-align: center;
+    }
+    .demo1{
+        padding: 1px 118px 0px 6px;
+        width: 853px;
+        text-align: center;
+    }
+    .yche{
+        padding:  0px 15px 0px 15px;
+        width: 853px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .start{
+        padding:  0px 15px 0px 15px;
+        width: 983px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .yche1{
+        font-size: 34px;
+        padding: 0px 20px 0px 20px;
+        font-weight: 600;
+        width: 667px;
+     }
+     .color{
+        background-color: #1846b22b;
+        padding: 0px 10px 0px 10px;
+     } */
+     
+    .signn{
+        /* margin-left: 522px; */
+    }
+    /* .sign3{
+        font-size: 2rem;
+    width: 688px;
+    margin-left: 29px;
+    }
+    
+    .sign2{
+       
+
+    font-size: 2rem;
+    width: 688px
+    }
+    .sign1{
+        font-size: 3rem;
+    width: 680px
+    }
+    .stg{
+        margin-left: 690px;
+    }
+    .stg1{
+        margin-left: 690px;
+    }
+    .stg2{
+        margin-left: 690px;
+    }
+    .sign{
+        row-gap: 33px;
+    } */
+}
