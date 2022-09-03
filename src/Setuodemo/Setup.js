@@ -1,118 +1,88 @@
 import React from "react";
-import "./Soultions.css";
-import img from "../Image/google.png";
 import img1 from "../Image/lock.png";
 import img2 from "../Image/Graf.png";
 import img3 from "../Image/setting.png";
 import img4 from "../Image/what.jpg";
 import img5 from "../Image/accout.png";
-import img6 from "../Image/bubble.png";
+import img6 from "../Image/why.png";
 import img7 from "../Image/faq.png";
 import { Link } from "react-router-dom";
-export default function Soultions() {
+export default function Setup() {
   return (
     <>
-      {/* <Navbar/> */}
-      <div className="dimo">
+      <div className="form">
         <div>
-          <p className="demo">
-            Unleash the full value of your inventory with Google AdX.
+          <p className="formtext" style={{ width: "500px" }}>
+            Grow your ad revenue by upto 40% with a Google Channel Partner!
           </p>
-          <p className="demo1">
-            Get the Highest eCPM and the Fill Rate that your content deserves by
-            the best Google AdX partner for publishers.
-          </p>
+          <p className="formtext1">✅ Premium Demand</p>
+          <p className="formtext1">✅ Higher Fill Rates</p>
+          <p className="formtext1">✅ Higher eCPM</p>
+          <p className="formtext1">✅ Higher Revenue!</p>{" "}
+        </div>
+        <div className="form1">
+          <div className="input">
+            <label for="fname">Name</label>
+            <br></br>
+            <input className="input" type="text" id="fname" name="fname" />
+          </div>
+          <br></br> <br></br>
+          <div className="input">
+            <label for="fname">First name:</label>
+            <br></br>
+            <input className="input" type="text" id="fname" name="fname" />
+          </div>
+          <br></br>
+          <br></br>
+          <div className="input">
+            <label for="fname">Email </label>
+            <br></br>
+            <input className="input" type="text" id="fname" name="fname" />
+          </div>
+          <br></br>
+          <br></br>
+          <div className="input">
+            <label for="fname">Phone:</label>
+            <br></br>
+            <input className="input" type="text" id="fname" name="fname" />
+          </div>
+          <br></br>
+          <br></br>
+          <div className="input">
+            <label for="fname">App/Website Link</label> <br></br>
+            <select className="input" name="cars" id="cars">
+              <option value="volvo">-Select-</option>
+              <option value="volvo">App</option>
+              <option value="saab">Website</option>
+            </select>
+            <br></br>
+          </div>
+          <br></br>
+          <br></br>
+          <div className="input">
+            <label for="fname">State(Country):</label>
+            <br></br>
+            <input className="input" type="text" id="fname" name="fname" />
+          </div>
+          <br></br>
+          <br></br>
+          <div className="input">
+            <label for="fname">FEstimated Monthly Revenue (USD) </label>
+            <br></br>
+            <input className="input" type="text" id="fname" name="fname" />
+            Usd
+          </div>
           <Link to="/Setup">
             {" "}
-            <button className="demobtn">Setup A Demo </button>
+            <div className="btn">
+              {" "}
+              <button className="btn1">Set Up Demo</button>
+            </div>
           </Link>
         </div>
-        <div>
-          <img className=" demoimg" src={img} alt="img"></img>
-        </div>
-      </div>
-      <div className="dche">
-        <div>
-          <p className="yche">Your Challenges</p>
-          <p className="yche1"> ❌Ad serving limit on AdMob/AdSense</p>
-          <p className="yche1">❌ Managing everything yourself</p>
-          <p className="yche1">❌Managing multiple ad partners</p>
-          <p className="yche1">❌SDK integration for every ad Partner</p>
-          <p className="yche1">❌No support from the existing ad Partner</p>
-          <p className="yche1"> ❌Low eCPM and Fill Rates</p>
-        </div>
-        <div className="color">
-          <p className="yche">Our Solutions</p>
-          <p className="yche1">
-            ✅Scale your app without the fear of Ad serving
-          </p>
-          <p className="yche1">
-            ✅Complete Ad Ops support to takes care of your day-to-day
-            operations
-          </p>
-          <p className="yche1">
-            ✅ Access to 10+ app advertising demand partners
-          </p>
-          <p className="yche1">✅ No additional SDK Integration required</p>
-          <p className="yche1">
-            ✅ Analysis, consultation, payments and ad quality issues are
-            handled by our hands-on team of experts
-          </p>
-          <p className="yche1">
-            ✅ Dedicated Account Manager for quick support
-          </p>
-          <p className="yche1">
-            ✅ Optimization experts increase your Ad Revenue
-          </p>
-        </div>
       </div>
       <div className="start">
-        <p>How to Get Started</p>
-      </div>
-      <div className="sign">
-        <div className="signn">
-          <p className="sign1">1</p>
-          <p className="sign2" style={{ color: "blue" }}>
-            Signup
-          </p>
-          <p className="sign3">
-            Fill out a small form to help us understand you better.
-          </p>
-        </div>
-        <div className="signn">
-          <p className="sign1">2</p>
-          <p className="sign2">Onboard</p>
-          <p className="sign3">
-            Discuss your goals and performance benchmark with our expert.
-          </p>
-        </div>
-        <div className="signn">
-          <p className="sign1">3</p>
-          <p className="sign2">Get App Approval</p>
-          <p className="sign3">
-            Get your app audited upfront to ensure uninterrupted monetization.
-          </p>
-        </div>
-      </div>
-      <div className="sign">
-        <div className="signn">
-          <p className="sign1">4</p>
-          <p className="sign2">Integrate Ad units</p>
-          <p className="sign3">
-            Solve all your ad serving problems with a single Ad Tag.
-          </p>
-        </div>
-        <div className="signn">
-          <p className="sign1">5</p>
-          <p className="sign2">And Monetize!</p>
-          <p className="sign3">
-            Start earning from your app from Day 1 after integrating our Ad
-            Tags.
-          </p>
-        </div>
-      </div>
-      <div className="start">
-        <p>What We Offer.</p>
+        <p>All the good things you get access to.</p>
       </div>
       <div className="sign">
         <div className="stg">
@@ -137,6 +107,7 @@ export default function Soultions() {
           </p>
         </div>
       </div>
+
       <div className="sign">
         <div className="stg">
           <img className="immg" src={img2} alt="img"></img>
@@ -155,34 +126,43 @@ export default function Soultions() {
       </div>
       <div className="dimo">
         <div>
-          <img className="bimg" src={img6} alt="img"></img>
-        </div>
-        <div>
           <p className="gtext">
-            Reasons our Publishers prefer us over anyone else.
+            Just some reasons why publishers partner with us
           </p>
-          <p className="gtext1">Google ADX Partner</p>
+          <p className="gtext1">Google Ad Exchange partner</p>
           <p className="demo1">
             We are a trusted Google partner which ensures authenticity, policy
-            compliance and scale for our publishers
-          </p>
-          <p className="gtext1">No SDK integration</p>
-          <p className="demo1">
-            Integrating our platform takes 5 min. Just add a few lines of code
-            to your app and you are ready to go
+            compliance and scale for our publishers.
           </p>
           <p className="gtext1">Quick Payments</p>
           <p className="demo1">
-            Automated invoices, quick payments - just like AdMob
+            Get payments between the 22nd-30th of every month so that your
+            monthly cash flow cycle is not affected.
+          </p>
+          <p className="gtext1">AdX expertise for mobile apps</p>
+          <p className="demo1">
+            We specialize in AdX for apps. Our team includes veterans working in
+            the app ecosystem for over a decade.
+          </p>
+          <p className="gtext1">Get Actionable Insights</p>
+          <p className="demo1">
+            Get performance optimization inputs, app ideas, and business
+            insights to grow your business.
+          </p>
+          <p className="gtext1">No SDK integration</p>
+          <p className="demo1">
+            Integrating our platform takes 5 min. You are ready to go by adding
+            a few lines of code to your app.
           </p>
           <Link to="/Setup">
             {" "}
             <button className="demobtn">Connect Now!</button>
           </Link>
         </div>
-        <div></div>
+        <div>
+          <img className="bimg" src={img6} alt="img"></img>
+        </div>
       </div>
-      {/* <Slide/> */}
       <div className="dimo">
         <div>
           <p className="gtext">Frequently Ask Questions</p>
@@ -193,6 +173,7 @@ export default function Soultions() {
               </p>
               <p>+</p>
             </div>
+
             <p className="hide1">
               Visit our Contact Us page and provide the following details: Name,
               work email, phone number, app/website link and your estimated
@@ -204,6 +185,7 @@ export default function Soultions() {
               <p className="hide ">What are the minimum requirements? </p>
               <p>+</p>
             </div>
+
             <p className="hide1">
               We accept all apps/websites which comply with Google Play and
               AdMob policies.
@@ -214,6 +196,7 @@ export default function Soultions() {
               <p className="hide ">What is the payment timeline? </p>
               <p>+</p>
             </div>
+
             <p className="hide1">
               We pay every 30 days, between the 21st-30th of every month, just
               like AdMob.
@@ -224,6 +207,7 @@ export default function Soultions() {
               <p className="hide ">How do I track performance & revenue? </p>
               <p>+</p>
             </div>
+
             <p className="hide1">
               We provide you with a reporting dashboard where you can see
               detailed stats on both performance & revenue. The data refresh is
@@ -237,6 +221,7 @@ export default function Soultions() {
               </p>
               <p>+</p>
             </div>
+
             <p className="hide1">
               We have a team of monetization & Ad Operations experts here to
               help you. Just Contact Us and we can take it from there.
@@ -246,15 +231,6 @@ export default function Soultions() {
         <div>
           <img className="faq" src={img7} alt="img"></img>
         </div>
-      </div>
-      <div className="start">
-        <p>Still not sure?</p>
-      </div>
-      <div className="talkbtn">
-        <Link to="/Setup">
-          {" "}
-          <button className="talkbtn1">TALK TO OUR EXPERTS</button>
-        </Link>
       </div>
     </>
   );

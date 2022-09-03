@@ -1,84 +1,78 @@
-.about{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 20px;
-    column-gap: 20px;
-    margin-top: 20px; 
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-top: 20px;
 }
-.about1{
-    
-    box-shadow: rgb(225 225 225) 0px 0px 19px 6px;
-    width: 380px;
-    padding: 5px 40px 2px 40px;
-    border-radius: 10px;
-    color: #17304C;
+.about1 {
+  box-shadow: rgb(225 225 225) 0px 0px 19px 6px;
+  width: 380px;
+  padding: 5px 40px 2px 40px;
+  border-radius: 10px;
+  color: #17304c;
 }
-.about1:hover{
-    background-color:  #17304C;
-    color: aliceblue;
+.about1:hover {
+  background-color: #17304c;
+  color: aliceblue;
 }
-.abouttext1{
-    width: 308px;
-    color: #17304C;
+.abouttext1 {
+  width: 308px;
+  color: #17304c;
 }
-.abouttext{
-    font-weight: bolder;
-width: 308px;
-font-size: 20px;
+.abouttext {
+  font-weight: bolder;
+  width: 308px;
+  font-size: 20px;
 }
-.aboutimg{
-    height: 76px;
-    margin-top: 17px;
+.aboutimg {
+  height: 76px;
+  margin-top: 17px;
 }
-.bunn{
-    font-size: 38px;
-  
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.dimoo{
-    display: flex;
-    flex-wrap: wrap;
-    /* padding: 78px 118px 0px 118px; */
-    justify-content: center;
-    column-gap: 24px;
-}
+.bunn {
+  font-size: 38px;
 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dimoo {
+  display: flex;
+  flex-wrap: wrap;
 
+  justify-content: center;
+  column-gap: 24px;
+}
 
 @media only screen and (max-width: 600px) {
-    .about{
-        padding: 0px;
-        width: 500px;
-        padding: 0px 200px 0px 269px  
-    }
-    .about1{
-     
-    }
-    .abouttext{
-        width: 460px;
-    }
-    
-    .abouttext1{
-        width: 423px;
-        font-size: 20px;
-    }
-    .aboutimg{
-        height: 134px;
-    }
-    .bunn{
-        font-size: 38px;
+  .about {
+    padding: 0px;
+    width: 500px;
+    padding: 0px 200px 0px 269px;
+  }
+
+  .abouttext {
+    width: 460px;
+  }
+
+  .abouttext1 {
+    width: 423px;
+    font-size: 20px;
+  }
+  .aboutimg {
+    height: 134px;
+  }
+  .bunn {
+    font-size: 38px;
     width: 216px;
     padding: 0px 54px 0px 433px;
     margin-top: 20px;
-        
-    }
-    .dimoo{
-        width: 791px;
-        width: 947px;
+  }
+  .dimoo {
+    width: 791px;
+    width: 947px;
     height: auto;
     padding: 0px 20px 0px 60px;
-    }
+  }
 }
