@@ -40,3 +40,33 @@
 
  
 
+
+
+
+ export  const Navabout =[
+    {
+        title:'About Us',
+        path:'/About',
+      
+        cName:'submenu'
+    },
+    {
+       title:'Join Us',
+       path:'/Join',
+      
+       cName:'submenu'
+   },
+   
+   {
+      title:'Contact US',
+      path:'/Contact',
+     
+      cName:'submenu'
+  }
+  
+  
+]
+
+
+
+

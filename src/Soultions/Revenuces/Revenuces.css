@@ -1,8 +1,11 @@
 .ssimg{
     background-color: #17304C;
-    padding: 50px 100px 0px 100px;
-    height: 450px;
+   
+    text-align: center;
+    
+    height: 400px;
     width: auto;
+ 
     margin-top: 10px;
 }
 .sstext1{
@@ -113,7 +116,7 @@
 }
 @media only screen and (max-width: 600px) {
     .ssimg{
-width: 600px;
+        width: 947px;
 height: 400px;
     }
     .ttext{
@@ -168,9 +171,9 @@ height: 400px;
     }
   
 }
-@media only screen and (max-width: 802px) {
+@media only screen and  (max-width: 700px) and (min-width: 600px) {
     .ssimg{
-  width: 935px;
-  height: 500px;
+  width: 947px;
+  height: 550px;
     }
-}
+}   

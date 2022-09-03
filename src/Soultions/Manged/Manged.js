@@ -21,7 +21,7 @@ import Image4 from "../../Image/newpic.png";
 export default function Manged() {
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/> */}
      <div className='dimo'>
         <div>
             <p className='demo'>Actionable Intelligence for your App Business!</p>

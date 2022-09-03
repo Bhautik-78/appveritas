@@ -14,7 +14,7 @@ import Slide from '../../Home/Slide';
 export default function Mobile() {
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/> */}
      <div className='dimo'>
         <div>
             <p className='demo'>Fast-Track your App Growth with our 360° App Monetization Platform.</p>

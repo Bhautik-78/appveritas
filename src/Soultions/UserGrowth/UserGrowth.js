@@ -42,7 +42,7 @@ export default function UserGrowth() {
   };
   return (
     <>
-       <Navbar/>
+       {/* <Navbar/> */}
      <div className='dimo'>
         <div>
             <p className='demo'>Profitably grow your App with the right users.</p>
@@ -147,7 +147,7 @@ Solve Critical Policy Violation</p>
      </div>
      <div className='dimo'>
      <div>
-    <p className='gtext' style={{color:"blue",fontSize:"20px"}}>DIGITAL AD CAMPAIGNS TO GROW<br></br></p>
+    <p className='gtext' style={{color:"blue"}}>DIGITAL AD CAMPAIGNS TO GROW<br></br></p>
 <p className='gtext'>Quality Users & App Installs</p>
     {/* <p className='gtext1'>Robust App Monetization Strategy</p> */}
     <p className='demo1'>

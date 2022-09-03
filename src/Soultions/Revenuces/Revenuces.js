@@ -19,7 +19,7 @@ import '../Revenuces/Revenuces.css';
 export default function Revenuces() {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
      <div className='dimo'>
         <div>
             <p className='demo'>Increasing your App's Ad Revenue couldn't be easier.</p>

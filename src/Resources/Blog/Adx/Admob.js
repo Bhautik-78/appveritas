@@ -19,14 +19,14 @@ export default function Adx() {
     {/* <Navbar/> */}
     <div>
     <div className='adxcolor'>
-      <p className='adxtext'>AdX</p>
+      <p className='adxtext'>AdMob</p>
     
     <div className='adxtext1'>
       <div>
         <p>Home</p>
       </div>
       <div>
-        <p>Archive "AdX"</p>
+        <p>Archive "AdMob"</p>
       </div>
     </div>
     </div>

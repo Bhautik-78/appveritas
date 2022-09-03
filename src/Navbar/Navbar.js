@@ -4,10 +4,15 @@ import PropTypes from 'prop-types';
 import './Navbar.css';
 import Dropdown from './Dropdown';
 import DropDown from './Dropdown1';
+import DropDowns from './Dropdown3';
+
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import { Navitem } from './Navitem';
+import { Navabout } from './Navitem';
+
+ import {mobileshow} from './Navtm';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import List from '@mui/material/List';
@@ -19,7 +24,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-
+import logo from '../Image/logo.png';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
@@ -36,6 +41,8 @@ function DrawerAppBar(props) {
 
 const[Dropdowns,setDropdowns]=useState(false);
 const[open,setopen]=useState(false);
+const[show,setshow]=useState(false);
+
 
 
   
@@ -59,24 +66,20 @@ const[open,setopen]=useState(false);
       </Typography>
       <Divider />
       <List sx={{color: "black"}}>
-        {/* {Navitem.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
-        ))} */}
-         {Navitem.map((item)=>{
+       <div className='view'>
+         {mobileshow.map((item)=>{
             return(
-                <li key={item.id}>
+                <p className='view1' key={item.id}>
                     <Link to={item.path} className={item.cName}
+                     style={{color: "black" ,textDecoration:"none",padding:"0px 20px 0px 20px"}}
                      >
                         {item.title}
                     </Link>
-                    {/* {Dropdowns &&<Dropdown/>}  */}
-                </li>
+                    {Dropdowns &&<Dropdown/>} 
+                </p >
             )
         })}
+        </div>
       </List>
     </Box>
   );
@@ -86,11 +89,11 @@ const[open,setopen]=useState(false);
   return (
     <>
     <Box >
-       <AppBar sx={{ bgcolor: "#FFFFFF", color:"black",boxShadow: 'none',height:"4rem"}}>
+       <AppBar sx={{ bgcolor:'#242A36',boxShadow: 'none',height:"4rem"}}>
         <Toolbar style= {{justifyContent:"space-between",padding:" 0px 102px 10px 102px" }}>
             <Toolbar  >
              
-                <Link to="/Home" ><img  alt="logo" style={{width:"100px",height:"62px"}} />
+                <Link to="/Home" ><img  src={logo} alt="logo" style={{width:"100px",height:"62px"}} />
                 </Link>
                 <p style={{fontWeight:600}}> </p>
             </Toolbar>
@@ -113,7 +116,7 @@ const[open,setopen]=useState(false);
                         
                       >
                         
-                      <strong style={{padding:" 10px"}}>Home</strong>
+                      <strong style={{padding:" 10px",color:"aliceblue"}}>Home</strong>
                    
                 </Button>
                 
@@ -122,7 +125,7 @@ const[open,setopen]=useState(false);
                         onMouseEnter={()=> setDropdowns(true)}
                         onMouseLeave={()=> setDropdowns(false)}
                 >
-                    <strong style={{padding:"26px"}}>Solutions </strong>
+                    <strong style={{padding:"26px",color:"aliceblue"}}>Solutions </strong>
                     {Dropdowns &&<Dropdown/>}
                 </Button>
                 <Button key="about" sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
@@ -130,15 +133,17 @@ const[open,setopen]=useState(false);
                             onMouseLeave={()=> setopen(false)}
                           
                         >
-                    <strong style={{padding:"26px"}}>Resources
+                    <strong style={{padding:"26px",color:"aliceblue"}}>Resources
                     {open &&<DropDown/>}
 </strong>
                 </Button>
                 <Button key="Event"  sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
-                          onClick={handleEvent}
-                          // to="/vidio"
+                         onMouseEnter={()=> setshow(true)}
+                         onMouseLeave={()=> setshow(false)}
+                          
                         >
-                    <strong>Company
+                    <strong style={{padding:"26px",color:"aliceblue"}}>Company
+                    {show &&<DropDowns/>}
 </strong>
                 </Button>
                
@@ -163,7 +168,7 @@ const[open,setopen]=useState(false);
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true, 
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
@@ -178,7 +183,7 @@ const[open,setopen]=useState(false);
        
       </Box>
     </Box>
-    {/* <Dropdown/> */}
+ 
     </>
   );
 }

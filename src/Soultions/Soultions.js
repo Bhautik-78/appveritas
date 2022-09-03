@@ -16,7 +16,7 @@ export default function Soultions() {
   
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
      <div className='dimo'>
         <div>
             <p className='demo'>Unleash the full value of your inventory with Google AdX.</p>

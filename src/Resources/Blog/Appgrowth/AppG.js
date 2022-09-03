@@ -16,7 +16,7 @@ import img11 from '../../images/img11.png';
 export default function Adx() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div>
     <div className='adxcolor'>
       <p className='adxtext'>App Growth</p>
