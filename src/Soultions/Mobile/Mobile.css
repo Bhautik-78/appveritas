@@ -44,3 +44,11 @@
     padding: 0px 168px 0px 500px;
   }
 }
+
+@media only screen and (max-width: 780px) and (min-width: 600px) {
+  .ourr {
+    padding: 0px 123px 0px 421px;
+  }
+  .aimg {
+  }
+}

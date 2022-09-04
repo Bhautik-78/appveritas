@@ -8,13 +8,13 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 8px;
+  column-gap: 100px;
   row-gap: 50px;
 }
 .footertext {
   font-size: 17px;
   color: aliceblue;
-  width: 300px;
+  width: 123px;
 }
 .icon {
   display: flex;
@@ -25,9 +25,9 @@
 }
 @media only screen and (max-width: 600px) {
   .footer {
-    width: 947px;
+    width: 1027px;
     height: auto;
-    padding: 0px 20px 0px 60px;
+    /* padding: 0px 20px 0px 60px; */
   }
   .footertext {
     font-size: 30px;
@@ -39,5 +39,12 @@
   }
   .footer1 {
     column-gap: 200px;
+  }
+}
+
+@media only screen and (max-width: 898px) and (min-width: 600px) {
+  .footer {
+    width: 947px;
+    height: auto;
   }
 }

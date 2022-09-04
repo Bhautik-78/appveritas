@@ -1,134 +1,145 @@
 .hetextt {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hetext {
-    width: 300px;
-    font-size: 18px;
-    margin-top: -11px;
+  width: 300px;
+  font-size: 18px;
+  margin-top: -11px;
 }
 
 .hetext1 {
-    width: 326px;
-    font-size: 25px;
-    font-weight: bolder;
+  width: 326px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 .heetext {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .heimg {
-    height: 76px;
-    margin-top: 17px;
+  height: 76px;
+  margin-top: 17px;
 }
 
 .fche {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .ftext {
-    font-size: 26px;
-    font-weight: bolder;
-    width: 257px;
-    text-align: center;
-    margin-left: 35px;
+  font-size: 26px;
+  font-weight: bolder;
+  width: 257px;
+  text-align: center;
+  margin-left: 35px;
 }
 
 .ftext1 {
-    font-size: 20px;
-    width: 251px;
-    text-align: center;
+  font-size: 20px;
+  width: 251px;
+  text-align: center;
 }
 
 .fimg {
-    height: 76px;
-    margin-top: 17px;
-    margin-left: 120px;
+  height: 76px;
+  margin-top: 17px;
+  margin-left: 120px;
 }
 
 .fcolor {
-    width: 300px;
-    background-color: #e2efff;
-    padding: 30px 10px 0px 10px;
-    border-radius: 10px;
+  width: 300px;
+  background-color: #e2efff;
+  padding: 30px 10px 0px 10px;
+  border-radius: 10px;
 }
 
 .fcolor1 {
-    width: 323px;
-    background-color: #e2efff;
-    padding: 30px 10px 0px 10px;
-    border-radius: 10px;
+  width: 323px;
+  background-color: #e2efff;
+  padding: 30px 10px 0px 10px;
+  border-radius: 10px;
 }
 
 .fcolor2 {
-    width: 323px;
-    background-color: #e2efff;
-    padding: 30px 10px 0px 10px;
-    border-radius: 10px;
+  width: 323px;
+  background-color: #e2efff;
+  padding: 30px 10px 0px 10px;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 600px) {
-    .hetext1 {
-        font-size: 51px;
-        width: 486px;
-        text-align: center;
-    }
+  .hetext1 {
+    font-size: 51px;
+    width: 486px;
+    text-align: center;
+  }
 
-    .heetext {
-        padding: 0px 168px 0px 242px;
-    }
+  .heetext {
+    padding: 0px 168px 0px 242px;
+  }
 
-    .hetext {
-        width: 490px;
-        text-align: center;
+  .hetext {
+    width: 490px;
+    text-align: center;
 
-        font-size: 35px;
-    }
+    font-size: 35px;
+  }
 
-    .heimg {
-        height: 150px;
-        margin-left: 60px;
-    }
+  .heimg {
+    height: 150px;
+    margin-left: 60px;
+  }
 
-    .heetext {
-        padding: 0px 168px 0px 500px;
-    }
+  .heetext {
+    padding: 0px 168px 0px 500px;
+  }
 
-    .fche {
-        padding: 0px 10px 0px 456px;
-    }
+  .fche {
+    padding: 0px 10px 0px 456px;
+  }
 
-    .fimg {
-        height: 76px;
-        margin-top: 17px;
-        margin-left: 150px;
-    }
+  .fimg {
+    height: 76px;
+    margin-top: 17px;
+    margin-left: 150px;
+  }
 
-    .fcolor {
-        width: 550px;
-        padding: 0px 83px 0px 83px;
-    }
+  .fcolor {
+    width: 550px;
+    padding: 0px 83px 0px 83px;
+  }
 
-    .fcolor2 {
-        width: 550px;
-        padding: 0px 83px 0px 83px;
-    }
+  .fcolor2 {
+    width: 550px;
+    padding: 0px 83px 0px 83px;
+  }
 
-    .fcolor1 {
-        width: 550px;
-        padding: 0px 83px 0px 83px;
-    }
+  .fcolor1 {
+    width: 550px;
+    padding: 0px 83px 0px 83px;
+  }
 
-    .ftext {
-        font-size: 3rem;
-        width: 500px;
-    }
+  .ftext {
+    font-size: 3rem;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 780px) and (min-width: 600px) {
+  .ourr {
+    padding: 0px 123px 0px 421px;
+  }
+  .heetext {
+    padding: 0px 123px 0px 421px;
+  }
+  .fche {
+    padding: 0px 123px 0px 421px;
+  }
 }

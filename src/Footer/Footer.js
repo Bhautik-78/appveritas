@@ -56,7 +56,7 @@ export default function Footer() {
           <div className="footertext">
             <h3>Contacts</h3>
             <p>Publiser@Appveritas.com</p>
-            <p>Appveritas Tech FZCO DSO_IFZA,Surat,Gujart-395010</p>
+            <p style={{width:"200px"}}>Appveritas Tech FZCO DSO_IFZA,Surat,Gujart-395010</p>
           </div>
         </div>
       </div>

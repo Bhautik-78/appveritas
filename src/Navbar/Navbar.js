@@ -80,7 +80,7 @@ function DrawerAppBar(props) {
         <AppBar sx={{ bgcolor: "#242A36", boxShadow: "none", height: "4rem" }}>
           <Toolbar style={{ justifyContent: "space-between", display: "flex" }}>
             <Toolbar>
-              <Link to="/Home">
+              <Link to="/">
                 <img
                   src={logo}
                   alt="logo"

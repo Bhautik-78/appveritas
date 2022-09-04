@@ -115,3 +115,29 @@
     width: 797px;
   }
 }
+
+@media only screen and (max-width: 700px) and (min-width: 600px) {
+  .acolor {
+    width: 500px;
+  }
+  .acolor1 {
+    width: 500px;
+  }
+  .acolor2 {
+    width: 500px;
+  }
+  .acolor3 {
+    width: 500px;
+  }
+  .aatext {
+    width: 500px;
+    font-size: 25px;
+  }
+  .aatext1 {
+    width: 500px;
+    font-size: 20px;
+  }
+  .aimg {
+    margin-left: 210px;
+  }
+}

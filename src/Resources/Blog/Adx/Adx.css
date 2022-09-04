@@ -37,7 +37,14 @@
 
 @media only screen and (max-width: 600px) {
   .adxcolor {
-    width: 947px;
+    width: 987px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 928px) and (min-width: 600px) {
+  .adxcolor {
+    width: 907px;
     height: auto;
   }
 }

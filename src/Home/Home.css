@@ -355,5 +355,37 @@
   }
 }
 
-@media only screen and (max-width: 857px) {
+@media only screen and (max-width: 780px) and (min-width: 600px) {
+  .header {
+    padding: 0px 123px 0px 421px;
+  }
+  .midel {
+    padding: 0px 120px 0px 237px;
+    width: 500px;
+    font-size: 40px;
+  }
+  .img4 {
+    padding: 0px 123px 0px 421px;
+    /* height: 500px; */
+  }
+  .logo {
+    height: 150px;
+  }
+  .apps {
+    padding: 0px 123px 0px 421px;
+  }
+  .blog {
+    padding: 0px 120px 0px 237px;
+    width: 500px;
+    font-size: 40px;
+  }
+  .pic {
+    padding: 0px 123px 0px 421px;
+  }
+  .bun {
+    padding: 0px 123px 0px 421px;
+  }
+  .form {
+    padding: 0px 123px 0px 421px;
+  }
 }
