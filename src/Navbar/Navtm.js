@@ -69,7 +69,7 @@ export const mobileshow = [
   },
   {
     title: "Success Stories",
-    path: "/Success Stories",
+    path: "/Success ",
 
     cName: "mobileshow",
   },

@@ -1,0 +1,28 @@
+.successimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+.sucessimg1 {
+  background: #e1eafb;
+  padding: 72px 140px 72px 140px;
+  align-items: center;
+  width: 115px;
+}
+
+.successimg h3:hover {
+  color: blue;
+}
+@media only screen and (max-width: 600px) {
+  .successimg {
+    margin-left: 500px;
+  }
+}
+@media only screen and (max-width: 780px) and (min-width: 600px) {
+  .successimg {
+    margin: 0px 10px 0px 206px;
+    margin-top: 20px;
+  }
+}

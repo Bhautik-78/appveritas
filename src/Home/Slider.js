@@ -86,8 +86,8 @@ export default function Slider() {
         </div>
       </div>
       <div className="blog">
-        <p className="blog2">BLOG</p>
-        <p className="blog1">Read Our Latest Articles</p>
+        <h2 className="blog2">BLOG</h2>
+        <h3 className="blog1">Read Our Latest Articles</h3>
       </div>
       <div className="pic">
         <div>

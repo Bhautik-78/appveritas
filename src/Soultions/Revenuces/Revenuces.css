@@ -128,7 +128,7 @@
     padding: 0px 83px 0px 83px;
   }
   .uback {
-    padding: 0px 100px 0px 500px;
+    margin-left: 500px;
     row-gap: 58px;
   }
   .utext {
@@ -153,18 +153,19 @@
     padding: 0px 83px 0px 83px;
   }
   .tche {
-    padding: 0px 10px 0px 456px;
+    margin-left: 500px;
   }
 }
-@media only screen and (max-width: 700px) and (min-width: 600px) {
+@media only screen and (max-width: 780px) and (min-width: 600px) {
   .ssimg {
     width: 947px;
     height: auto;
   }
   .tche {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
   .uback {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
+    row-gap: 20px;
   }
 }

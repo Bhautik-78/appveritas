@@ -1,17 +1,18 @@
+
+
+
 import React from "react";
-import "../../Resources/Blog/Adx/Adx.css";
-import Navbar from "../../Navbar/Navbar";
+import { Link } from "react-router-dom";
 import img1 from "../images/img1.png";
 
-export default function Adx() {
+export default function Gudies() {
   return (
     <>
-      <Navbar />
       <div>
         <div className="adxcolor">
           <p className="adxtext">Guides</p>
 
-          <div className="adxtext1"></div>
+         
         </div>
       </div>
       <div className="himges">
@@ -28,10 +29,13 @@ export default function Adx() {
           </div>
         </div>
       </div>
-      <div className="Gudiesbtn">
+      <div className="bun">
         {" "}
-        <button className="Gudiesbtn1">Know More</button>
+        <Link to="/Setup">
+          <button className="button1">Know More</button>
+        </Link>
       </div>
+      
     </>
   );
 }

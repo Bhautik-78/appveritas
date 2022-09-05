@@ -8,7 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 52px;
+  column-gap: 0px;
   row-gap: 15px;
 }
 .demo1 {
@@ -34,7 +34,6 @@
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 24px;
-  /* padding: 0px 20px 0px 20px; */
 }
 .yche {
   font-size: 2rem;
@@ -162,15 +161,15 @@
 
 @media only screen and (max-width: 600px) {
   .dimo {
-    width: 791px;
+    margin-left: 500px;
   }
 
   .dche {
-    padding: 0px 140px 0px 462px;
+    margin-left: 500px;
     display: flex;
   }
   .sign {
-    padding: 0px 140px 0px 200px;
+    margin-left: 500px;
   }
   .demoimg {
     padding: 0px 13px;
@@ -181,12 +180,11 @@
     text-align: center;
     font-size: 3rem;
   }
-  .signn {
-    padding: 0px 113px 0px 600px;
-  }
+
   .start {
-    width: 947px;
-    text-align: center;
+    width: 500px;
+
+    margin-left: 260px;
     font-size: 3rem;
   }
   .yche1 {
@@ -209,21 +207,14 @@
     font-size: 2rem;
     width: 688px;
   }
-  .stg {
-    margin-left: 473px;
-  }
-  .stg1 {
-    margin-left: 473px;
-  }
-  .stg2 {
-    margin-left: 473px;
-  }
+
   .sign {
     row-gap: 33px;
   }
   .gtext {
     font-size: 50px;
-    width: 100%;
+
+    width: 600px;
   }
   .gtext1 {
     font-size: 2.2rem;
@@ -234,8 +225,8 @@
   }
   .talkbtn {
     font-size: 38px;
-    width: 186px;
-    padding: 0px 5px 0px 337px;
+    width: 500px;
+    margin-left: 260px;
     margin-top: 20px;
   }
 }
@@ -248,20 +239,19 @@
 }
 @media only screen and (max-width: 780px) and (min-width: 600px) {
   .dimo {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
   .dche {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
   .start {
-    padding: 0px 120px 0px 237px;
-    width: 500px;
+    margin: 0px 10px 0px 206px;
     font-size: 40px;
   }
   .sign {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
   .talkbtn {
-    padding: 0px 123px 0px 337px;
+    margin: 0px 10px 0px 206px;
   }
 }

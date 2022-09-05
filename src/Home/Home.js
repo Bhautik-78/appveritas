@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <p className="midel">Empowering Businesses Around The World</p>
+        <h2 className="midel">Empowering Businesses Around The World</h2>
       </div>
       <div className="img4">
         <div>

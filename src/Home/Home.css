@@ -51,7 +51,6 @@
 }
 .midel {
   text-align: center;
-  font-size: 1.9rem;
   font-weight: bold;
 }
 .img4 {
@@ -225,10 +224,10 @@
 }
 @media only screen and (max-width: 600px) {
   .header {
-    width: 791px;
+    margin-left: 500px;
   }
   .apps {
-    padding: 0px 140px 0px 400px;
+    margin-left: 500px;
   }
   .top {
     padding: 0px 0px 0px 200px;
@@ -236,7 +235,6 @@
   .text {
     font-size: 57px;
     width: 556px;
-    text-align: center;
   }
   .atext {
     font-size: 25px;
@@ -244,7 +242,6 @@
   }
   .text1 {
     font-size: 25px;
-    text-align: center;
   }
   .text3 .button {
     text-align: center;
@@ -265,11 +262,11 @@
 
   .midel {
     font-size: 40px;
-    width: 791px;
-    text-align: center;
+    width: 500px;
+    margin-left: 260px;
   }
   .img4 {
-    padding: 0px 140px 0px 400px;
+    margin-left: 500px;
     row-gap: 15px;
   }
   .logo {
@@ -284,7 +281,7 @@
     width: 630px;
   }
   .pic {
-    padding: 0px 140px 0px 400px;
+    margin-left: 500px;
     row-gap: 10px;
   }
   .ptext {
@@ -298,22 +295,12 @@
     padding: 0px 10px 0px 110px;
   }
   .blog {
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 60px;
-    font-size: 1.5rem;
-  }
-  .blog1 {
-    font-size: 2rem;
-    margin-top: 15px;
+    width: 500px;
+    margin-left: 260px;
 
-    width: 704px;
+    margin-top: 60px;
   }
-  .blog2 {
-    font-size: 30px;
-    width: 714px;
-    text-align: center;
-  }
+
   .btn {
     font-size: 38px;
 
@@ -325,25 +312,26 @@
   }
   .bun {
     font-size: 38px;
-    width: 186px;
-    padding: 0px 5px 0px 289px;
+    width: 500px;
+    margin-left: 260px;
+
     margin-top: 20px;
   }
 
   .form {
-    padding: 0px 140px 0px 400px;
+    margin-left: 500px;
   }
   .form1 {
     width: 433px;
   }
   .formtext {
     font-size: 38px;
-    width: 714px;
+    width: 775px;
     text-align: center;
   }
   .formtext1 {
     font-size: 25px;
-    width: 714px;
+    width: 775px;
     text-align: center;
   }
   .img-box {
@@ -357,35 +345,33 @@
 
 @media only screen and (max-width: 780px) and (min-width: 600px) {
   .header {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
   .midel {
-    padding: 0px 120px 0px 237px;
-    width: 500px;
+    margin: 0px 10px 0px 206px;
     font-size: 40px;
   }
   .img4 {
-    padding: 0px 123px 0px 421px;
-    /* height: 500px; */
+    padding: 0px 200px 0px 421px;
   }
   .logo {
     height: 150px;
   }
   .apps {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
+    
   }
   .blog {
-    padding: 0px 120px 0px 237px;
-    width: 500px;
-    font-size: 40px;
+    font-size: 30px;
+    margin: 0px 10px 0px 206px;
   }
   .pic {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
   .bun {
-    padding: 0px 123px 0px 421px;
+    margin: 0px 10px 0px 206px;
   }
   .form {
-    padding: 0px 123px 0px 421px;
+    padding: 0px 200px 0px 421px;
   }
 }

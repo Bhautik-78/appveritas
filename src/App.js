@@ -24,6 +24,10 @@ import Setup from "./Setuodemo/Setup";
 import AppGrowth from "./Resources/Blog/Adx/AppGrowth";
 import AppM from "./Resources/Blog/Adx/AppM";
 import AdR from "./Resources/Blog/Adx/AdR";
+import Ad from "./Resources/Success/Ad";
+import User from "./Resources/Success/User";
+
+
 
 function App() {
   return (
@@ -50,6 +54,12 @@ function App() {
           <Route exact path="/Contact" element={<Contact />}></Route>
           <Route exact path="/Join" element={<Join />}></Route>
           <Route exact path="/Setup" element={<Setup />}></Route>
+          <Route exact path="/Success" element={<Success />}></Route>
+          <Route exact path="/Ad" element={<Ad />}></Route>
+          <Route exact path="/Users" element={<User />}></Route>
+
+
+
         </Routes>
         <Footer />
       </Router>
