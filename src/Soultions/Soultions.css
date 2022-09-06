@@ -1,14 +1,14 @@
 .demo {
   font-size: 3rem;
   font-weight: bolder;
-  width: 550px;
+  width: 500px;
   color: #17304c;
 }
 .dche {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 0px;
+  column-gap: 100px;
   row-gap: 15px;
 }
 .demo1 {
@@ -33,7 +33,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 24px;
+  column-gap: 100px;
 }
 .yche {
   font-size: 2rem;

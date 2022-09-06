@@ -9,10 +9,10 @@ import img5 from "../Image/accout.png";
 import img6 from "../Image/bubble.png";
 import img7 from "../Image/faq.png";
 import { Link } from "react-router-dom";
+import Slide from "../Home/Slide";
 export default function Soultions() {
   return (
     <>
-      {/* <Navbar/> */}
       <div className="dimo">
         <div>
           <p className="demo">
@@ -182,7 +182,7 @@ export default function Soultions() {
         </div>
         <div></div>
       </div>
-      {/* <Slide/> */}
+      <Slide />
       <div className="dimo">
         <div>
           <p className="gtext">Frequently Ask Questions</p>

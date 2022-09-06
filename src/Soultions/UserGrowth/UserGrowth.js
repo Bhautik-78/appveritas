@@ -10,6 +10,11 @@ import img5 from "../../Image/idea.png";
 import img6 from "../../Image/analytic.png";
 import img7 from "../../Image/list.png";
 import img8 from "../../Image/settings.png";
+import plants6 from "../../Image/accept.png";
+import plants7 from "../../Image/share.png";
+import plants8 from "../../Image/share2.png";
+
+import Slide from "../../Home/Slide";
 import { Link } from "react-router-dom";
 import Image4 from "../../Image/form.jpg";
 
@@ -230,9 +235,9 @@ export default function UserGrowth() {
           <p className="sign2">Accept the invite and get started</p>
         </div>
       </div>
-      {/* <div className="wrapper">
-        <div className="content">
-          <div className="img-box">
+      <div className="wrapper">
+        
+          <div className="box">
             {step === 1 && (
               <img
                 
@@ -243,26 +248,26 @@ export default function UserGrowth() {
             )}
             {step === 2 && (
               <img
-              className="simg"
+              className="simg1"
                 src={plants7}
                 alt="logo"
               />
             )}
             {step === 3 && (
               <img
-              className="simg"
-                src={plant8}
+              className="simg1"
+                src={plants8}
                 alt="logo"
               />
             )}
           </div>
-        </div>
-        <div className="indicators-box">
-          <div className="indicator" onClick={gotoslide2}></div>
-          <div className="indicator" onClick={gotoslide3}></div>
-        </div>
-      </div> */}
-      {/* <Slide/> */}
+     
+        <div className="box1">
+          <div className="indicator1" onClick={gotoslide2}></div>
+          <div className="indicator1" onClick={gotoslide3}></div>
+         </div>
+      </div>
+      <Slide/>
       <div className="form">
         <div>
           <p className="formtext">Get Started With AppBroda Today</p>

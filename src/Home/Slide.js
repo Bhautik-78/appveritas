@@ -29,7 +29,7 @@ export default function Slide() {
             <p className="test1">What our clients say</p>
             <button className="button1">CONTACT US</button>
           </div>
-          <div className="img-box">
+          <div className="img-boxs">
             {step === 1 && (
               <div className="scolor">
                 <h1>,,</h1>

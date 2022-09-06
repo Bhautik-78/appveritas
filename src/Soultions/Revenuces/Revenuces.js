@@ -11,6 +11,7 @@ import img9 from "../../Image/quick-results.png";
 import img11 from "../../Image/dedicated.png";
 import img10 from "../../Image/what.jpg";
 import img12 from "../../Image/setting.png";
+import Slide from "../../Home/Slide";
 import "./../Soultions.css";
 import { Link } from "react-router-dom";
 import "../Revenuces/Revenuces.css";
@@ -175,7 +176,7 @@ export default function Revenuces() {
           </p>
         </div>
       </div>
-      {/* <Slide/> */}
+      <Slide/>
       <div className="start">
         <p>What are you waiting for? Start optimizing your revenue TODAY!</p>
       </div>

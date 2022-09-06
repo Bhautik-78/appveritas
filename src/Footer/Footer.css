@@ -41,9 +41,10 @@
   }
 }
 
-@media only screen and (max-width: 898px) and (min-width: 600px) {
+@media only screen and (max-width: 940px) and (min-width: 600px) {
   .footer {
-    width: 947px;
+    width: 927px;
     height: auto;
+    padding:  0px 10.2px 0px 4px;
   }
 }

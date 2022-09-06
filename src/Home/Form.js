@@ -16,33 +16,33 @@ export default function Form() {
         </div>
         <div className="form1">
           <div className="input">
-            <label for="fname">Name</label>
+            <label htmlFor="fname">Name</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br> <br></br>
           <div className="input">
-            <label for="fname">Company Name</label>
+            <label htmlFor="fname">Company Name</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br> <br></br>
           <div className="input">
-            <label for="fname">Email </label>
+            <label htmlFor="fname">Email </label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br>
           <br></br>
           <div className="input">
-            <label for="fname">Phone:</label>
+            <label htmlFor="fname">Phone:</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br>
           <br></br>
           <div className="input">
-            <label for="fname">App/Website Link</label> <br></br>
+            <label htmlFor="fname">App/Website Link</label> <br></br>
             <select className="input" name="cars" id="cars">
               <option value="volvo">-Select-</option>
               <option value="volvo">App</option>
@@ -53,14 +53,14 @@ export default function Form() {
           <br></br>
           <br></br>
           <div className="input">
-            <label for="fname">State(Country):</label>
+            <label htmlFor="fname">State(Country):</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br>
           <br></br>
           <div className="input">
-            <label for="fname">FEstimated Monthly Revenue (USD) </label>
+            <label htmlFor="fname">Festimated Monthly Revenue (USD) </label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
             Usd

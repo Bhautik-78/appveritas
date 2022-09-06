@@ -8,6 +8,7 @@ import img3 from "../../Image/list.png";
 import img4 from "../../Image/settings.png";
 import img5 from "../../Image/Generating.png";
 import { Link } from "react-router-dom";
+import Slide from "../../Home/Slide";
 export default function Mobile() {
   return (
     <>
@@ -180,7 +181,7 @@ export default function Mobile() {
         </div>
         <div></div>
       </div>
-      {/* <Slide/> */}
+      <Slide/>
       <div className="start">
         <p>Still not sure?</p>
       </div>

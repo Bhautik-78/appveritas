@@ -45,20 +45,21 @@
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
 }
+.box1{
+  /* width: 100%; */
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
 
 .img-box img {
   width: 100%;
   height: 100%;
 }
 
-.indicators-box {
-  width: 100%;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.indicators-box .indicator {
+
+.box1 .indicator1 {
   width: 15px;
   height: 15px;
   border: 2px solid black;
@@ -72,7 +73,11 @@
 .simg {
   width: 100%;
   height: auto;
-  padding: 0px 15px 0px 15px;
+  /* padding: 0px 15px 0px 15px; */
+}
+.simg1{
+  width: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 600px) {
   .aatext {
@@ -114,6 +119,19 @@
     height: 400px;
     width: 797px;
   }
+  .simg{
+    width: 700px;
+  }
+  .simg1{
+    width: 700px;
+  }
+  .box{
+      margin-left:100px;
+  }
+  .box1{
+    margin-left:167px;
+    width: 764px;
+  }
 }
 
 @media only screen and (max-width: 780px) and (min-width: 600px) {
@@ -141,3 +159,21 @@
     margin-left: 210px;
   }
 }
+
+@media only screen and (max-width: 940px) and (min-width: 600px) {
+  .simg{
+    height: 320px;
+    width: auto;
+    margin-left: 110px;
+  }
+  .simg1{
+    height: 268px;
+    width: auto;
+    margin-left: 72px;
+  }
+  .box1 {
+    margin-left: 260px;
+    width: 500px;
+  }
+}
+

@@ -6,6 +6,7 @@ import Image2 from "../Image/til.png";
 import Image3 from "../Image/poket.png";
 import Image4 from "../Image/appx.png";
 import Slider from "./Slider";
+import Slide from "./Slide";
 import Form from "./Form";
 import { Link } from "react-router-dom";
 
@@ -47,7 +48,7 @@ export default function Home() {
           <img className="logo" src={Image4} alt="images"></img>
         </div>
       </div>
-      {/* <Slide/> */}
+      <Slide/>
       <Slider />
       <Form />
     </>
