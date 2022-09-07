@@ -78,8 +78,7 @@
 .ucolor {
   background-image: linear-gradient(150deg, #5283c8 0%, #4f6fb5 90%);
   padding: 50px 50px 0px 50px;
-  border-radius: 5px;
-  margin-top: 20px;
+  border-radius: 5px; 
   height: 229px;
 }
 
@@ -92,7 +91,6 @@
   background-image: linear-gradient(150deg, #49bdc0 0%, #3eb19d 90%);
   padding: 50px 50px 0px 50px;
   border-radius: 5px;
-  margin-top: 20px;
 }
 
 .uback {
@@ -124,8 +122,6 @@
   }
   .tcolor {
     width: 550px;
-
-    padding: 0px 83px 0px 83px;
   }
   .uback {
     margin-left: 500px;
@@ -139,18 +135,12 @@
   }
   .tcolor1 {
     width: 550px;
-
-    padding: 0px 83px 0px 83px;
   }
   .tcolor2 {
     width: 550px;
-
-    padding: 0px 83px 0px 83px;
   }
   .tcolor3 {
     width: 550px;
-
-    padding: 0px 83px 0px 83px;
   }
   .tche {
     margin-left: 500px;

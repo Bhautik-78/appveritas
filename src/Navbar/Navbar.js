@@ -18,7 +18,7 @@ import { Link, useNavigate } from "react-router-dom";
 import logo from "../Image/logo.png";
 
 
-const drawerWidth = 240;
+const drawerWidth = 400;
 
 function DrawerAppBar(props) {
   const { window } = props;

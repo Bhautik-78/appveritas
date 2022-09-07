@@ -10,44 +10,42 @@ export default function Contact() {
     <>
       <div className="dimo">
         <div>
-          <p className="demo" style={{ marginTop: "200px" }}>
-            Let AppBroda help you grow your App Business
+          <p className="demo my-5" >
+            Let Lorem help you grow your App Business
           </p>
         </div>
         <div>
           <img className=" demoimg" src={img} alt="img"></img>
         </div>
       </div>
-      <div className="form">
+      <div className="form my-5">
         <div>
-          <p className="formtext">Get Started With AppBroda Today</p>
-          <p className="formtext1">
-            AppBroda is more than an Adtech Platform. We are a go-to place for
+          <p className="formtext">Get Started With Lorem Today</p>
+          <p className="formtext1 mx-4">
+            Lorem is more than an Adtech Platform. We are a go-to place for
             publishers. Setup a free demo to know more!
           </p>
           <img className="pics" src={Image4} alt="images"></img>
         </div>
-        <div className="form1">
+        <div className="form1 p-5">
           <h1>Contact Us</h1>
           <div className="input">
             <label for="fname">Name</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br> <br></br>
+          <br></br>
           <div className="input">
             <label for="fname">Email </label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br>
-          <br></br>
           <div className="input">
             <label for="fname">Phone:</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br>
           <br></br>
           <div className="input">
             <label for="fname">input:</label>
@@ -60,8 +58,7 @@ export default function Contact() {
               name="fname"
             />
           </div>
-          <div className="btn" style={{ marginTop: "90px" }}>
-            {" "}
+          <div className="btn my-3" >
             <button className="btn1">Set Up Demo</button>
           </div>
         </div>
@@ -75,7 +72,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <p className="demo1" style={{ marginTop: "200px" }}>
+          <p className="demo1" style={{ marginTop: "100px" }}>
             We understand that some queries need immediate responses. We support
             you with a dedicated account manager and 24×7 chat support on
             WhatsApp.
@@ -84,7 +81,7 @@ export default function Contact() {
           <button className="buttonn">Connect On WhatsApp</button>
         </div>
       </div>
-      <div className="start">
+      <div className="start my-3">
         <p>Find us on Social Media</p>
       </div>
       <div className="start">
@@ -92,25 +89,25 @@ export default function Contact() {
           href="#"
           title="Facebook"
           network="facebook"
-          bgColor="blue"
+          className="mx-2"
         />
         <SocialIcon
           href="#"
           title="Facebook"
           network="twitter"
-          bgColor="blue"
+          className="mx-2"
         />
         <SocialIcon
           href="#"
           title="Facebook"
           network="linkedin"
-          bgColor="blue"
+          className="mx-2"
         />
         <SocialIcon
           href="#"
           title="Facebook"
           network="instagram"
-          bgColor="blue"
+          className="mx-2"
         />
       </div>
     </>

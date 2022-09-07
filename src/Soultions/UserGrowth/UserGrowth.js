@@ -91,7 +91,7 @@ export default function UserGrowth() {
           </p>
         </div>
       </div>
-      <div className="start">
+      <div className="start my-5">
         <p>What We Offer</p>
       </div>
       <div className="dche">
@@ -110,7 +110,7 @@ export default function UserGrowth() {
           <p className="aatext">Data-Backed App Advertising</p>
           <p className="aatext1">
             Are you targeting the right audience through your Google Ad
-            Campaigns? At AppBroda, our data-backed app advertising campaigns
+            Campaigns? At lorem, our data-backed app advertising campaigns
             and analytical approaches maximize and transform your app business.
           </p>
         </div>
@@ -134,7 +134,7 @@ export default function UserGrowth() {
           </p>
         </div>
       </div>
-      <div className="start">
+      <div className="start my-5">
         <p>Innovative Features</p>
       </div>
       <div className="ourr">
@@ -195,7 +195,7 @@ export default function UserGrowth() {
           <p className="gtext">Quality Users & App Installs</p>
           <p className="demo1">
             Quality users builts a successful app business! Hence, we at
-            AppBroda, study your users and target them accurately.
+            Lorem Ipsum, study your users and target them accurately.
           </p>
           <p className="demo1">
             We manage your Google ads and Facebook ads campaign with intent to
@@ -217,7 +217,7 @@ export default function UserGrowth() {
         <div></div>
       </div>
       <div className="start">
-        <p>The Journey with AppBroda in a snap.</p>
+        <p>The Journey with Lorem Ipsum in a snap.</p>
       </div>
       <div className="sign">
         <div className="signn">
@@ -227,7 +227,7 @@ export default function UserGrowth() {
         <div className="signn">
           <p className="sign1">2</p>
           <p className="sign2">
-            AppBroda will share an MCC invite to your Ad account
+            Lorem Ipsum will share an MCC invite to your Ad account
           </p>
         </div>
         <div className="signn">
@@ -235,44 +235,44 @@ export default function UserGrowth() {
           <p className="sign2">Accept the invite and get started</p>
         </div>
       </div>
-      <div className="wrapper">
-        
-          <div className="box">
-            {step === 1 && (
-              <img
-                
-                className="simg"
-                src={plants6}
-                alt="logo"
-              />
-            )}
-            {step === 2 && (
-              <img
-              className="simg1"
-                src={plants7}
-                alt="logo"
-              />
-            )}
-            {step === 3 && (
-              <img
-              className="simg1"
-                src={plants8}
-                alt="logo"
-              />
-            )}
-          </div>
-     
-        <div className="box1">
-          <div className="indicator1" onClick={gotoslide2}></div>
-          <div className="indicator1" onClick={gotoslide3}></div>
-         </div>
-      </div>
+      {/*<div className="wrapper">*/}
+      {/*  */}
+      {/*    <div className="box container">*/}
+      {/*      {step === 1 && (*/}
+      {/*        <img*/}
+      {/*          */}
+      {/*          className="simg"*/}
+      {/*          src={plants6}*/}
+      {/*          alt="logo"*/}
+      {/*        />*/}
+      {/*      )}*/}
+      {/*      {step === 2 && (*/}
+      {/*        <img*/}
+      {/*        className="simg1"*/}
+      {/*          src={plants7}*/}
+      {/*          alt="logo"*/}
+      {/*        />*/}
+      {/*      )}*/}
+      {/*      {step === 3 && (*/}
+      {/*        <img*/}
+      {/*        className="simg1"*/}
+      {/*          src={plants8}*/}
+      {/*          alt="logo"*/}
+      {/*        />*/}
+      {/*      )}*/}
+      {/*    </div>*/}
+
+      {/*  <div className="box1">*/}
+      {/*    <div className="indicator1 my-2" onClick={gotoslide2}></div>*/}
+      {/*    <div className="indicator1 my-2" onClick={gotoslide3}></div>*/}
+      {/*   </div>*/}
+      {/*</div>*/}
       <Slide/>
-      <div className="form">
+      <div className="form my-5">
         <div>
-          <p className="formtext">Get Started With AppBroda Today</p>
+          <p className="formtext">Get Started With Lorem Ipsum Today</p>
           <p className="formtext1">
-            AppBroda is more than an Adtech Platform. We are a go-to place for
+            Lorem Ipsum is more than an Adtech Platform. We are a go-to place for
             publishers. Setup a free demo to know more!
           </p>
           <img className="pics" src={Image4} alt="images"></img>
@@ -284,13 +284,12 @@ export default function UserGrowth() {
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br> <br></br>
+          <br></br>
           <div className="input">
             <label for="fname">Email </label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br>
           <br></br>
           <div className="input">
             <label for="fname">Phone:</label>
@@ -298,16 +297,11 @@ export default function UserGrowth() {
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br>
-          <br></br>
           <div className="input">
             <label for="fname">App Link:</label>
-            <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br>
-          <br></br>
-          <div className="btn">
-            {" "}
+          <div className="my-4">
             <button className="btn1">Set Up Demo</button>
           </div>
         </div>

@@ -34,14 +34,13 @@ export default function Slide() {
               <div className="scolor">
                 <h1>,,</h1>
                 <p className="stext">
-                  AppBroda's optimization team helped me make my app profitable
-                  by optimizing the eCPM and overall Ad Revenue to get a better
-                  ROAS. Really thankful to the team for giving these results
-                  with their optimization product.
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
                 <div>
-                  <h4>Maulik</h4>
-                  <h3>CEO, Capset Infotech</h3>
+                  <h5></h5>
+                  <h4></h4>
                 </div>
               </div>
             )}
@@ -50,14 +49,13 @@ export default function Slide() {
               <div className="scolor">
                 <h1>,,</h1>
                 <p className="stext">
-                  I was facing low eCPM issues in most of my apps. I tried using
-                  a few strategies of my own but could not do much. With
-                  AppBroda's Plug-and-Play optimization suit, I saw great
-                  results and could't be happier
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
                 <div>
-                  <h4>Nayan</h4>
-                  <h3>CEO, Logicbuzz Infotech</h3>
+                  <h4>Lorem Ipsum</h4>
+                  <h3></h3>
                 </div>
               </div>
             )}
@@ -65,7 +63,7 @@ export default function Slide() {
               <div className="scolor">
                 <h1>,,</h1>
                 <p className="stext">
-                  We are thankful to the AppBroda team for helping us to grow
+                  We are thankful to the Lorem Ipsum team for helping us to grow
                   our revenue. Support team is very active and they are ready to
                   help at any time.
                 </p>

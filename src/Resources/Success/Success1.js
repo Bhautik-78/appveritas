@@ -26,9 +26,9 @@ export default function Success1(props) {
       
       <div className="form">
         <div>
-          <p className="formtext">Get Started With AppBroda Today</p>
+          <p className="formtext">Get Started With Lorem ipsum Today</p>
           <p className="formtext1">
-            AppBroda is more than an Adtech Platform. We are a go-to place for
+            Lorem ipsum is more than an Adtech Platform. We are a go-to place for
             publishers. Setup a free demo to know more!
           </p>
           <img className="pics" src={Image4} alt="images"></img>

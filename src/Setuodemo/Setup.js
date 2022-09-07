@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 export default function Setup() {
   return (
     <>
-      <div className="form">
+      <div className="form my-5">
         <div>
-          <p className="formtext" style={{ width: "500px" }}>
+          <p className="formtext " style={{ width: "500px",marginLeft:"0rem" }}>
             Grow your ad revenue by upto 40% with a Google Channel Partner!
           </p>
           <p className="formtext1">✅ Premium Demand</p>
@@ -20,19 +20,18 @@ export default function Setup() {
           <p className="formtext1">✅ Higher eCPM</p>
           <p className="formtext1">✅ Higher Revenue!</p>{" "}
         </div>
-        <div className="form1">
+        <div className="form1 p-5">
           <div className="input">
             <label for="fname">Name</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br> <br></br>
+          <br></br>
           <div className="input">
             <label for="fname">First name:</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br>
           <br></br>
           <div className="input">
             <label for="fname">Email </label>
@@ -40,13 +39,11 @@ export default function Setup() {
             <input className="input" type="text" id="fname" name="fname" />
           </div>
           <br></br>
-          <br></br>
           <div className="input">
             <label for="fname">Phone:</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br>
           <br></br>
           <div className="input">
             <label for="fname">App/Website Link</label> <br></br>
@@ -58,13 +55,11 @@ export default function Setup() {
             <br></br>
           </div>
           <br></br>
-          <br></br>
           <div className="input">
             <label for="fname">State(Country):</label>
             <br></br>
             <input className="input" type="text" id="fname" name="fname" />
           </div>
-          <br></br>
           <br></br>
           <div className="input">
             <label for="fname">FEstimated Monthly Revenue (USD) </label>
@@ -73,15 +68,13 @@ export default function Setup() {
             Usd
           </div>
           <Link to="/Setup">
-            {" "}
             <div className="btn">
-              {" "}
               <button className="btn1">Set Up Demo</button>
             </div>
           </Link>
         </div>
       </div>
-      <div className="start">
+      <div className="start my-4">
         <p>All the good things you get access to.</p>
       </div>
       <div className="sign">
@@ -113,7 +106,7 @@ export default function Setup() {
           <img className="immg" src={img2} alt="img"></img>
           <p className="sign2">Real-time Dashboard</p>
           <p className="sign3">
-            Get real-time data and insights through AppBroda’s console
+            Get real-time data and insights through Lorem’s console
           </p>
         </div>
         <div className="stg1">

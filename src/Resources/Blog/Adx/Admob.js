@@ -78,7 +78,7 @@ export default function Adx() {
           <div className="hpadding">
             <p className="htext">Google AdMob vs ironSource</p>
             <p className="htext1">
-              Find out which ad network is better, as we at AppBroda compare the
+              Find out which ad network is better, as we at Lorem ipsum compare the
               two leading ad networks – Google AdMob vs...
             </p>
           </div>

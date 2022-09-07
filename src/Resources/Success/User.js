@@ -17,7 +17,7 @@ export default function User() {
     <>
       <div>
         <h3 className="midel" style={{ color: "blue" }}>
-          APPBRODA'S CASE STUDIES
+          LOREM'S CASE STUDIES
         </h3>
       </div>
       <div>

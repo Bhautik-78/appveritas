@@ -77,7 +77,7 @@ export default function Join() {
       </div>
       <div className="start">
         <p>
-          At AppBroda, we want to build a community of people who want to learn
+          At Lorem ipsum, we want to build a community of people who want to learn
           new skills, solve interesting problems and work among people who
           motivate each other to become better versions of themselves.
         </p>

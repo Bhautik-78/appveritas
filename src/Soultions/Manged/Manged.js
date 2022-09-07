@@ -1,6 +1,6 @@
 import React from "react";
 import "./../Soultions.css";
-import "../Manged/Manged.css";
+import "./Manged.css";
 import img from "../../Image/join-appbroda.png";
 import img1 from "../../Image/idea.png";
 import img2 from "../../Image/analytic.png";
@@ -24,7 +24,7 @@ export default function Manged() {
         <div>
           <p className="demo">Actionable Intelligence for your App Business!</p>
           <p className="demo1">
-            Scraper – an app store optimization tool by AppBroda to help with
+            Scraper – an app store optimization tool by Lorem Ipsum to help with
             mobile app optimization. Use it to identify top trending niches,
             increase organic installs and stay ahead of the competition!
           </p>
@@ -73,11 +73,10 @@ export default function Manged() {
           </p>
         </div>
       </div>
-      <div className="ssimg">
-        <div>
+      <div className="ssimg my-5">
+        <div className="container">
           <p className="sstext2">About Scraper:</p>
           <p className="sstext3">
-            {" "}
             Scraper provides you insightful data to leverage your app’s growth
             with App Store Optimization, competitive analysis and in-depth
             research. With this appstore intelligence tool, you can analyze the
@@ -85,7 +84,6 @@ export default function Manged() {
             competitors, and generate country-wise growth plans.
           </p>
           <p className="sstext3">
-            {" "}
             Save $$ with our free App store Optimization tool, while staying
             ahead of your competitors. No need to hire expensive agencies when
             you can get the same results for free with our Market intelligence
@@ -175,7 +173,7 @@ export default function Manged() {
         </div>
       </div>
 
-      <div className="start">
+      <div className="start my-3">
         <p>Why Use Scraper?</p>
       </div>
 
@@ -213,7 +211,7 @@ export default function Manged() {
           <p className="ttext">Explore Unlimited Number of Apps & Keywords</p>
         </div>
       </div>
-      <div className="form">
+      <div className="form my-5">
         <div>
           <p className="formtext">Join our Beta Program Now!​</p>
           <img className="pics" src={Image4} alt="images"></img>

@@ -4,12 +4,12 @@
   column-gap: 50px;
   row-gap: 50px;
 }
-.abtn {
-  height: 30px;
-  border-color: #0d76ff;
-  color: #0d76ff;
-  border-radius: 3px;
-}
+/*.abtn {*/
+/*  height: 30px;*/
+/*  !*border-color: #0d76ff;*!*/
+/*  color: #0d76ff;*/
+/*  border-radius: 3px;*/
+/*}*/
 .abtn:hover {
   background-color: #0d76ff;
   color: white;
@@ -67,6 +67,7 @@
   }
   .hhover {
     width: 500px;
+    justify-content: center;
   }
   .htext1 {
     width: 460px;

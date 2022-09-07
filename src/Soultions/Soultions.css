@@ -30,6 +30,8 @@
   border-radius: 5px;
 }
 .dimo {
+  /*background: #F6F6F6;*/
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,7 +52,6 @@
 }
 .start {
   text-align: center;
-  margin-top: 47px;
   font-size: 2rem;
   font-weight: bolder;
   color: #17304c;
@@ -156,7 +157,6 @@
 }
 .talkbtn {
   text-align: center;
-  margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -191,8 +191,8 @@
     font-size: 30px;
   }
   .faq {
-    width: 400px;
-    height: 400px;
+    width: 700px;
+    height: 600px;
   }
   .sign3 {
     font-size: 3rem;

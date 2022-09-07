@@ -24,6 +24,7 @@
 .heimg {
   height: 76px;
   margin-top: 17px;
+  margin-right:1rem;
 }
 
 .fche {
@@ -89,7 +90,6 @@
   .hetext {
     width: 490px;
     text-align: center;
-
     font-size: 35px;
   }
 
@@ -110,17 +110,14 @@
 
   .fcolor {
     width: 550px;
-    padding: 0px 83px 0px 83px;
   }
 
   .fcolor2 {
     width: 550px;
-    padding: 0px 83px 0px 83px;
   }
 
   .fcolor1 {
     width: 550px;
-    padding: 0px 83px 0px 83px;
   }
 
   .ftext {

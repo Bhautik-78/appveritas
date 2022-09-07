@@ -46,7 +46,6 @@
   color: white;
   background-color: #0d76ff;
   border: #0d76ff;
-  margin-top: 50px;
   border-radius: 5px;
 }
 .midel {
@@ -78,7 +77,7 @@
 }
 .top {
   margin-top: 71px;
-
+  flex-direction: row;
   display: flex;
   row-gap: 19px;
   justify-content: space-between;
@@ -94,10 +93,11 @@
 .apps {
   display: flex;
   flex-wrap: wrap;
-
+  /*background: #17304C;*/
   justify-content: center;
   column-gap: 153px;
 }
+
 .atext {
   width: 494px;
   color: #17304c;
@@ -152,6 +152,7 @@
   text-align: center;
 }
 .formtext {
+  margin-left: 2.5rem;
   font-weight: bolder;
   font-size: 2rem;
 }
@@ -169,18 +170,17 @@
 .form1 {
   background-color: aqutransparena;
   margin-top: 14px;
+  width: 30rem;
   box-shadow: 10px, 10px;
   box-shadow: 10px 0px;
-
   box-shadow: rgb(225 225 225) 0px 0px 12px 5px;
   border-radius: 15px;
   padding: 28px 22px 0px 22px;
 }
 .input {
-  width: 420px;
-  height: 20px;
+  width: 100%;
   color: #17304c;
-  font-weight: 500;
+  font-weight: bold;
 }
 .stext {
   width: 447px;
@@ -225,6 +225,9 @@
   margin-top: 20px;
 }
 @media only screen and (max-width: 600px) {
+  .input{
+    width: 30rem;
+  }
   .header {
     margin-left: 500px;
   }
@@ -237,10 +240,14 @@
   }
   .top {
     column-gap: 100px;
+    flex-direction: column;
   }
   .text {
     font-size: 57px;
     width: 556px;
+  }
+  .form1{
+    width:40rem;
   }
   .atext {
     font-size: 25px;
@@ -320,26 +327,23 @@
     font-size: 38px;
     width: 500px;
     margin-left: 260px;
-
     margin-top: 20px;
   }
 
   .form {
     margin-left: 500px;
   }
-  .form1 {
-    width: 433px;
-  }
-  .formtext {
-    font-size: 38px;
-    width: 775px;
-    text-align: center;
-  }
-  .formtext1 {
-    font-size: 25px;
-    width: 775px;
-    text-align: center;
-  }
+
+  /*.formtext {*/
+  /*  font-size: 38px;*/
+  /*  width: 775px;*/
+  /*  text-align: center;*/
+  /*}*/
+  /*.formtext1 {*/
+  /*  font-size: 25px;*/
+  /*  width: 775px;*/
+  /*  text-align: center;*/
+  /*}*/
   .img-box {
     margin-left: -60px;
     margin-top: 90px;
@@ -350,6 +354,10 @@
 }
 
 @media only screen and (max-width: 780px) and (min-width: 600px) {
+  .input{
+    width: 20rem;
+  }
+  
   .header {
     padding: 0px 200px 0px 421px;
   }

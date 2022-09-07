@@ -119,11 +119,12 @@
     height: 400px;
     width: 797px;
   }
-  .simg{
-    width: 700px;
-  }
+  /*.simg{*/
+  /*  width: 700px;*/
+  /*}*/
   .simg1{
     width: 700px;
+    margin-left:12rem;
   }
   .box{
       margin-left:100px;
@@ -164,7 +165,6 @@
   .simg{
     height: 320px;
     width: auto;
-    margin-left: 110px;
   }
   .simg1{
     height: 268px;

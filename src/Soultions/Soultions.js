@@ -13,9 +13,9 @@ import Slide from "../Home/Slide";
 export default function Soultions() {
   return (
     <>
-      <div className="dimo">
+      <div className="dimo my-3">
         <div>
-          <p className="demo">
+          <p className="demo my-5">
             Unleash the full value of your inventory with Google AdX.
           </p>
           <p className="demo1">
@@ -142,7 +142,7 @@ export default function Soultions() {
           <img className="immg" src={img2} alt="img"></img>
           <p className="sign2">Real-time Dashboard</p>
           <p className="sign3">
-            Get real-time data and insights through AppBroda’s console
+            Get real-time data and insights through Lorem’s console
           </p>
         </div>
         <div className="stg1">
@@ -157,7 +157,7 @@ export default function Soultions() {
         <div>
           <img className="bimg" src={img6} alt="img"></img>
         </div>
-        <div>
+        <div className="my-5">
           <p className="gtext">
             Reasons our Publishers prefer us over anyone else.
           </p>
@@ -180,11 +180,10 @@ export default function Soultions() {
             <button className="demobtn">Connect Now!</button>
           </Link>
         </div>
-        <div></div>
       </div>
       <Slide />
-      <div className="dimo">
-        <div>
+      <div className="dimo my-2">
+        <div className="my-5">
           <p className="gtext">Frequently Ask Questions</p>
           <div>
             <div className="show">

@@ -44,7 +44,6 @@ import img43 from "../images/img43.png";
 import img44 from "../images/img44.png";
 import img45 from "../images/img45.png";
 import img46 from "../images/img46.png";
-import img48 from "../images/img48.png";
 import { Link } from "react-router-dom";
 
 export default function Blog() {
@@ -53,39 +52,35 @@ export default function Blog() {
       <div className="start">
         <p>Our Blog</p>
       </div>
-      <div className="admob">
+      <div className="admob ">
         <div>
           <Link to="/Admob">
-            {" "}
-            <button className="abtn">Admob</button>
+            <button className="btn btn-dark">Admob</button>
           </Link>
         </div>
         <div>
           <Link to="/Adx">
-            {" "}
-            <button className="abtn">Adx</button>
+            <button className="btn btn-dark">Adx</button>
           </Link>
         </div>
         <div>
           <Link to="/AppGrowth">
-            <button className="abtn">App Growth</button>
+            <button className="btn btn-dark">App Growth</button>
           </Link>
         </div>
         <div>
           <Link to="/AppM">
-            {" "}
-            <button className="abtn">App Monetization</button>
+            <button className="btn btn-dark">App Monetization</button>
           </Link>
         </div>
         <div>
           <Link to="/AdR">
-            {" "}
-            <button className="abtn">Ad Revenue</button>
+            <button className="btn btn-dark">Ad Revenue</button>
           </Link>
         </div>
       </div>
-
-      <div className="himges">
+      <div className="container">
+      <div className="himges ">
         <div className="hhover">
           <img className="himg" src={img1} alt="img"></img>
           <div className="hpadding">
@@ -138,7 +133,7 @@ export default function Blog() {
           <div className="hpadding">
             <p className="htext">Google AdMob vs ironSource</p>
             <p className="htext1">
-              Find out which ad network is better, as we at AppBroda compare the
+              Find out which ad network is better, as we at Lorem ipsum compare the
               two leading ad networks – Google AdMob vs...
             </p>
           </div>
@@ -200,7 +195,7 @@ export default function Blog() {
               Google UAC: Types of Universal App Campaigns
             </p>
             <p className="htext1">
-              At AppBroda we design app campaigns through Google UAC that
+              At Lorem Ipsum we design app campaigns through Google UAC that
               streamline processes and make it easy to…
             </p>
           </div>
@@ -322,7 +317,7 @@ export default function Blog() {
             </p>
             <p className="htext1">
               Learn How to Set Up a Successful UAC Campaign On Google Ads with
-              AppBroda And Increase…
+              Lorem ipsum And Increase…
             </p>
           </div>
         </div>
@@ -417,7 +412,7 @@ export default function Blog() {
               What Is RTB And How Does Real-Time Bidding Work?
             </p>
             <p className="htext1">
-              Learn about real time bidding or RTB with AppBroda or get in touch
+              Learn about real time bidding or RTB with Lorem Ipsum or get in touch
               with an expert to see how it…!
             </p>
           </div>
@@ -613,18 +608,7 @@ export default function Blog() {
             </p>
           </div>
         </div>
-        <div className="hhover">
-          <img className="himg" src={img48} alt="img"></img>
-          <div className="hpadding">
-            <p className="htext">
-              Google AdMob VS. AdX: Choosing the best monetization platform
-            </p>
-            <p className="htext1">
-              With a huge growth in the mobile app industry over the past few
-              years, mobile app downloads are…
-            </p>
-          </div>
-        </div>
+      </div>
       </div>
     </>
   );
